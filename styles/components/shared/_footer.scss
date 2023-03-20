@@ -1,0 +1,116 @@
+footer {
+  background: $color-bg-footer;
+  padding: 55px 0 15px 0;
+  @include media-max($bp-xs) {
+    padding: 25px 0 15px 0;
+  }
+  .top {
+    margin: 0 90px;
+    grid-gap: 70px;
+    @include media-max($bp-xl) {
+      flex-direction: column;
+      grid-gap: 50px;
+    }
+    @include media-max($bp-xs) {
+      margin: 10px;
+      grid-gap: 25px;
+    }
+    .logo {
+      position: relative;
+      width: 240px;
+      height: 70px;
+    }
+    .links {
+      display: grid;
+      align-items: flex-start;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 10px;
+      @include media-max($bp-sm) {
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 50px 15px;
+      }
+      @include media-max($bp-xs) {
+        grid-template-columns: 100%;
+        gap: 25px;
+      }
+      h2 {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+
+        color: $color-white;
+        margin-bottom: 10px;
+      }
+      a,
+      p {
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 24px;
+        color: $color-white;
+        display: block;
+        width: fit-content;
+      }
+      p {
+        margin-top: 10px;
+      }
+      .column {
+        p {
+          font-weight: bold;
+        }
+        .address {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  .middle {
+    color: $color-white;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    margin: 40px 0;
+    @include media-max($bp-sm) {
+      margin: 24px 0;
+    }
+    @include media-max($bp-xs) {
+      text-align: left;
+    }
+    br {
+      @include media-max($bp-lg) {
+        display: none;
+      }
+    }
+  }
+  .bottom {
+    @include flexCenterBetween;
+    @include media-max($bp-sm) {
+      @include flexColumnCenter;
+      grid-gap: 10px;
+      text-align: center;
+    }
+    .left {
+      p {
+        font-size: 12px;
+        line-height: 18px;
+        color: $color-white;
+        span {
+          color: $color-white;
+        }
+      }
+      a {
+        color: $color-white;
+        font-size: 14px;
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      p {
+        font-size: 12px;
+        color: $color-white;
+      }
+    }
+  }
+}

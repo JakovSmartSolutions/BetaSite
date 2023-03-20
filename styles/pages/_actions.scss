@@ -1,0 +1,78 @@
+.actionsPage {
+  padding: 60px 0;
+  @include media-max($bp-xs) {
+    padding: 30px 0;
+  }
+  .container {
+    h1 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      margin-bottom: 20px;
+    }
+    .cards {
+      margin-top: 60px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 50px;
+      @include media-max($bp-xl) {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+      }
+      @include media-max($bp-lg) {
+        grid-gap: 20px;
+      }
+      @include media-max($bp-md) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @include media-max($bp-sm) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+      }
+      @include media-max($bp-xs) {
+        grid-template-columns: 100%;
+        margin-top: 20px;
+      }
+      .card {
+        .img {
+          border-radius: $border-radius;
+          overflow: hidden;
+          width: 100%;
+          height: 320px;
+          position: relative;
+          @include media-max($bp-sm) {
+            height: 400px;
+          }
+          &:hover {
+            &::after {
+              background: transparent;
+            }
+          }
+          &::after {
+            content: '';
+            position: absolute;
+            transition: all 0.2s ease-in-out;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(
+              180deg,
+              rgba(0, 0, 0, 0) 0%,
+              rgba(0, 0, 0, 0.3) 100%
+            );
+          }
+        }
+        p {
+          font-weight: 600;
+          font-size: 18px;
+          text-align: center;
+          margin-top: 10px;
+          @include media-max($bp-xs) {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+}

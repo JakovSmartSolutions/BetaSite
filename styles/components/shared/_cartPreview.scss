@@ -1,0 +1,145 @@
+.cartIconHolder {
+  position: relative;
+}
+
+.cartPreview {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 99;
+  width: 350px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+  padding-top: 10px;
+  &.active {
+    pointer-events: unset;
+    opacity: 1;
+  }
+  @include media-max($bp-sm) {
+    display: none;
+  }
+  .content {
+    position: relative;
+    background: $color-white;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    width: 100%;
+    padding: 15px 0;
+    .itemsWrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .items {
+        margin-bottom: 10px;
+        width: 100%;
+        overflow-y: auto;
+        max-height: 265px;
+        &::-webkit-scrollbar {
+          width: 0;
+        }
+        .item {
+          padding: 15px 5px;
+          border-bottom: 1px solid $color-border;
+          display: grid;
+          grid-template-columns: 52px 1fr;
+          align-items: center;
+          width: 100%;
+          grid-gap: 10px;
+          .photo {
+            width: 52px;
+            height: 52px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .right {
+            display: grid;
+            grid-template-columns: 1fr 24px;
+            grid-gap: 10px;
+            align-items: center;
+            .info {
+              width: 100%;
+              h2 {
+                width: 240px;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                font-weight: 400;
+                font-size: 14px;
+              }
+              .row {
+                display: grid;
+                grid-template-columns: 70px auto;
+                grid-gap: 15px;
+                margin-top: 5px;
+                align-items: center;
+                .counter {
+                  display: grid;
+                  grid-template-columns: 20px 1fr 20px;
+                  height: 30px;
+                  align-items: center;
+                  justify-items: center;
+                  border: 1px solid $color-border;
+                  border-radius: 30px;
+                  svg {
+                    cursor: pointer;
+                    transform: rotate(90deg);
+                    &:last-child {
+                      transform: rotate(-90deg);
+                    }
+                    path {
+                      fill: $color-text-secondary;
+                    }
+                  }
+                  p {
+                    font-size: 16px;
+                    color: $color-text-secondary;
+                  }
+                }
+                p {
+                  font-weight: 500;
+                  font-size: 16px;
+                }
+              }
+            }
+            svg {
+              cursor: pointer;
+            }
+          }
+        }
+      }
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        grid-gap: 10px;
+        width: 240px;
+        a {
+          font-size: 14px;
+          &.disabled {
+            background: $color-light;
+            color: $color-black;
+          }
+        }
+      }
+    }
+    .empty {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      svg {
+        width: 90px !important;
+        height: 90px !important;
+      }
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        margin: 10px 0 30px 0;
+      }
+      .btn-primary {
+        width: 240px;
+        font-size: 14px;
+      }
+    }
+  }
+}
