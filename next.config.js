@@ -12,11 +12,11 @@ const nextConfig = {
     includePaths: [path.join(__dirname, "styles")],
   },
   images: {
-    domains: ['api.jakov.rs'],
+    domains: ['api.beta.jakov.rs'],
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'api.jakov.rs',
+        hostname: 'api.beta.jakov.rs',
       },
     ],
   },
