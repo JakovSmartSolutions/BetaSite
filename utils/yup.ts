@@ -1,37 +1,37 @@
-import * as Yup from 'yup';
+import * as Yup from "yup";
 
 Yup.setLocale({
   mixed: {
-    required: 'Polje je obavezno',
+    required: "Polje je obavezno",
   },
   string: {
-    email: 'Unesite validan email',
+    email: "Unesite validan email",
   },
 });
 
 export const signInYup = Yup.object().shape({
   email: Yup.string().email().max(255).required(),
-  password: Yup.string().min(8, 'Unesite najmanje 8 karaktera').required(),
+  password: Yup.string().min(8, "Unesite najmanje 8 karaktera").required(),
 });
 
 export const signUpYup = Yup.object().shape({
   name: Yup.string().max(255).required(),
   email: Yup.string().email().max(255).required(),
-  password: Yup.string().min(8, 'Unesite najmanje 8 karaktera').required(),
+  password: Yup.string().min(8, "Unesite najmanje 8 karaktera").required(),
   password_confirmation: Yup.string()
-    .min(8, 'Unesite najmanje 8 karaktera')
+    .min(8, "Unesite najmanje 8 karaktera")
     .required()
-    .oneOf([Yup.ref('password'), null], 'Lozinke se ne podudaraju'),
+    .oneOf([Yup.ref("password"), null], "Lozinke se ne podudaraju"),
 });
 
 export const resetPassword = Yup.object().shape({
   name: Yup.string().max(255).required(),
   email: Yup.string().email().max(255).required(),
-  password: Yup.string().min(8, 'Unesite najmanje 8 karaktera').required(),
+  password: Yup.string().min(8, "Unesite najmanje 8 karaktera").required(),
   password_confirmation: Yup.string()
-    .min(8, 'Unesite najmanje 8 karaktera')
+    .min(8, "Unesite najmanje 8 karaktera")
     .required()
-    .oneOf([Yup.ref('password'), null], 'Lozinke se ne podudaraju'),
+    .oneOf([Yup.ref("password"), null], "Lozinke se ne podudaraju"),
 });
 
 export const checkoutYup = Yup.object().shape({
@@ -50,11 +50,11 @@ export const checkoutYup = Yup.object().shape({
 
 export const passwordSchema = Yup.object().shape({
   old_password: Yup.string()
-    .min(5, 'Mora imati najmanje 8 karaktera')
+    .min(5, "Mora imati najmanje 8 karaktera")
     .required(),
-  password: Yup.string().min(8, 'Mora imati najmanje 8 karaktera').required(),
+  password: Yup.string().min(8, "Mora imati najmanje 8 karaktera").required(),
   password_confirmation: Yup.string()
-    .min(8, 'Mora imati najmanje 8 karaktera')
+    .min(8, "Mora imati najmanje 8 karaktera")
     .required()
-    .oneOf([Yup.ref('password'), null], 'Lozinke se moraju podudarati'),
+    .oneOf([Yup.ref("password"), null], "Lozinke se moraju podudarati"),
 });

@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import Link from 'next/link';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import Image from "next/image";
+import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import { Banner } from 'types/banner.types';
+import { Banner } from "types/banner.types";
 
-import { DownArrowIcon } from 'public/assets/icons/DownArrow';
+import { DownArrowIcon } from "public/assets/icons/DownArrow";
 
 interface Props {
   banners: Banner[];
@@ -12,7 +12,7 @@ interface Props {
 
 export const BannersSlider = ({ banners }: Props) => {
   const data = banners.filter(
-    ({ position: p }) => p.name === 'Traka na početnoj'
+    ({ position: p }) => p.name === "Traka na početnoj"
   );
 
   return (
@@ -53,10 +53,10 @@ interface ItemProps {
 }
 
 const Item = ({ el }: ItemProps) => (
-  <Link href={el.link} className="bannerItem">
+  <Link href={el.link || ""} className="bannerItem">
     <Image
       src={
-        typeof window !== 'undefined' && window.innerWidth < 1024
+        typeof window !== "undefined" && window.innerWidth < 1024
           ? el.mobile_image
           : el.desktop_image
       }

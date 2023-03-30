@@ -37,8 +37,6 @@ const CategoriesPage = ({ category, attributes }: Props) => {
     refetch();
   }, [query, activeSort, activePage]);
 
-  //console.log(category);
-
   return (
     <>
       {/* <NextSeo

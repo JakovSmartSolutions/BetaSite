@@ -20,24 +20,24 @@ export const ProductsSlider = ({
   products,
   isPrimary = false,
 }: Props) => {
-  let name1;
-  let slug1;
+  // let name1;
+  // let slug1;
 
-  let name2;
-  let slug2;
+  // let name2;
+  // let slug2;
 
-  let name3;
-  let slug3;
-  if (subs.length > 0) {
-    name1 = subs[0].name;
-    slug1 = subs[0].slug;
+  // let name3;
+  // let slug3;
+  // if (subs.length > 0) {
+  //   name1 = subs[0].name;
+  //   slug1 = subs[0].slug;
 
-    name2 = subs[1].name;
-    slug2 = subs[1].slug;
+  //   // name2 = subs[1].name;
+  //   // slug2 = subs[1].slug;
 
-    name3 = subs[2].name;
-    slug3 = subs[2].slug;
-  }
+  //   // name3 = subs[2].name;
+  //   // slug3 = subs[2].slug;
+  // }
 
   return (
     <>
@@ -45,13 +45,25 @@ export const ProductsSlider = ({
         <div className="sectionLeft">
           <h2 className="sectionTitle">{title}</h2>
 
-          {subs.length > 0 && (
+          <div className="links">
+            {subs.length > 0 && (
+              <Link href={`/kategorije/${subs[0].slug}`}>{subs[0].name}</Link>
+            )}
+            {subs.length > 1 && (
+              <Link href={`/kategorije/${subs[1].slug}`}>{subs[1].name}</Link>
+            )}
+            {subs.length > 2 && (
+              <Link href={`/kategorije/${subs[2].slug}`}>{subs[2].name}</Link>
+            )}
+          </div>
+
+          {/* {subs.length > 0 && (
             <div className="links">
               <Link href={`/kategorije/${slug1}`}>{name1}</Link>
               <Link href={`/kategorije/${slug2}`}>{name2}</Link>
               <Link href={`/kategorije/${slug3}`}>{name3}</Link>
             </div>
-          )}
+          )} */}
         </div>
       </div>
 

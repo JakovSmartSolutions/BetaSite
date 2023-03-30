@@ -7,7 +7,8 @@ import { useWishlist } from "hooks/useWishlist";
 import { useAuthStore } from "stores/AuthStore";
 import { useWishlistStore } from "stores/WishlistStore";
 import { Swiper, SwiperSlide } from "swiper/react";
-import LogoImage from "public/assets/images/Logo.png";
+import { ProductItemMainImage } from "@/types/global.types";
+import useWindowSize from "@/hooks/useWindowSIze";
 
 interface Props {
   product: SingleProduct;
@@ -19,8 +20,11 @@ export const Images = ({ product }: Props) => {
   const mainImage = images.find(({ main }) => main)?.large || "";
 
   const [activeImage, setActiveImage] = useState(mainImage);
+  const [productImages, setProductImages] = useState(images);
+  const [largeImage, setLargeImage] = useState("");
   const { items } = useWishlistStore();
   const { addToWishlist, removeFromWishlist } = useWishlist();
+  const isMobile = useWindowSize();
 
   const isAddedToWishList = items.some(
     (item) => item.product.id === product.id
@@ -42,10 +46,54 @@ export const Images = ({ product }: Props) => {
 
   useEffect(() => {
     setActiveImage(mainImage);
+    setProductImages(images);
   }, [product]);
+
+  if (isMobile) {
+    return (
+      <div className="images">
+        <Swiper slidesPerView={1}>
+          {productImages.map((img) => (
+            <SwiperSlide key={img.id}>
+              <Image
+                src={img.large}
+                alt={name}
+                fill
+                onClick={() => setLargeImage(img.large)}
+              ></Image>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    );
+  }
 
   return (
     <div className="images">
+      {largeImage !== "" && (
+        <>
+          <div className="backdrop" onClick={() => setLargeImage("")} />
+          <div className="largeImage">
+            <Image
+              src={largeImage}
+              alt={name}
+              height={300}
+              width={300}
+              onClick={() => setLargeImage("")}
+            ></Image>
+          </div>
+          <div className="otherImages">
+            {images.map((img) => (
+              <Image
+                src={img.large}
+                alt={name}
+                fill
+                onClick={() => setLargeImage(img.large)}
+              ></Image>
+            ))}
+          </div>
+        </>
+      )}
       <div className="mainImg">
         <WishListIcon
           className="wishListIcon"
@@ -54,31 +102,36 @@ export const Images = ({ product }: Props) => {
         />
         <div className="img">
           {activeImage && (
-            <Image src={activeImage} alt={name} fill priority quality={100} />
+            <Image
+              src={activeImage}
+              alt={name}
+              height={390}
+              width={390}
+              priority
+              quality={100}
+              onClick={() => setLargeImage(activeImage)}
+            />
           )}
         </div>
       </div>
       <Swiper
-        spaceBetween={50}
+        spaceBetween={25}
         slidesPerView={3}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
+        breakpoints={{
+          1750: { slidesPerView: 3 },
+          1400: { slidesPerView: 3 },
+          1024: { slidesPerView: 3 },
+          700: { slidesPerView: 2 },
+        }}
       >
-        <SwiperSlide>
-          <Image src={LogoImage} alt="logoImage" width={140}></Image>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={LogoImage} alt="logoImage" width={140}></Image>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={LogoImage} alt="logoImage" width={140}></Image>
-        </SwiperSlide>
-        <SwiperSlide>
-          <Image src={LogoImage} alt="logoImage" width={140}></Image>
-        </SwiperSlide>
-        ...
+        {productImages.map((img) => (
+          <SwiperSlide key={img.id} onClick={() => setActiveImage(img.large)}>
+            <Image src={img.large} alt={name} fill></Image>
+          </SwiperSlide>
+        ))}
       </Swiper>
-
       {/* <div className="allImages">
         {images.map((img) => (
           <div

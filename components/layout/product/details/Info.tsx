@@ -17,7 +17,7 @@ export const Info = ({ product }: Props) => {
   const price = getProductPrice({ discount, authenticated_price, web_price });
   const category = product.mainCategory?.[0] || null;
 
-  console.log(product);
+  //console.log(product);
 
   let mainSpecContent;
 

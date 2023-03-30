@@ -34,8 +34,6 @@ export const HeaderMiddle = ({ categories }: Props) => {
   const { items: wishList } = useWishlistStore();
   const isMobileDevice = useWindowSize();
 
-  // const user = null;
-
   return (
     <>
       <div className="headerMiddle">

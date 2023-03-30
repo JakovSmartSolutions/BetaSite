@@ -185,6 +185,8 @@
   .bannersSlider {
     position: relative;
     margin-bottom: 50px;
+    border-radius: $border-radius;
+    overflow: hidden;
     .bannerItem {
       height: 240px;
       position: relative;

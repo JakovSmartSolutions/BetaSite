@@ -3,6 +3,7 @@ import { useState } from "react";
 import { SingleProduct } from "types/singleProduct.types";
 import { Specifications } from "./Specifications";
 import { Declaration } from "./Declaration";
+import { ProductDeclaration } from "@/api/singleProduct/types";
 
 interface Props {
   product: SingleProduct;

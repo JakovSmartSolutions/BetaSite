@@ -35,10 +35,6 @@
       justify-content: center;
       margin: 30px 30px 10px 30px;
       @include flexCenter;
-
-      img{
-        height: auto!important;
-      }
     }
     h2 {
       font-weight: 400;

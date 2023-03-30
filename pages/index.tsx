@@ -10,7 +10,7 @@ import { DynamicProductsSlider } from "components/shared/ProductsSlider";
 //import { BannersSlider } from "components/layout/home/BannersSlider";
 import Link from "next/link";
 import Image from "next/image";
-import BannerImage from "public/assets/images/Banner2.png";
+//import BannerImage from "public/assets/images/Banner2.png";
 //import AmdImage from "public/assets/images/Banner3.png";
 //import IntelImage from "public/assets/images/Banner4.png";
 
@@ -25,12 +25,16 @@ const Categories = dynamic(
 );
 
 export default function Home({ data, banners }: Props) {
-  //console.log(banners);
+  const laneBanner = banners.filter(
+    (banner) => banner.position.name == "Traka na početnoj"
+  );
+
   return (
     <>
       <main className="homePage">
         <div className="container">
-          <HeroBanner banners={banners} />
+          {banners.length > 0 && <HeroBanner banners={banners} />}
+
           <Cards />
           <DynamicProductsSlider
             title="Preporuka meseca"
@@ -45,17 +49,23 @@ export default function Home({ data, banners }: Props) {
             subs={data.sections[0].categories}
             products={data.sections[0].products}
           />
-          <div className="bannersSlider">
-            <Link href="#" className="bannerItem">
-              <Image src={BannerImage} alt="Banner 2" fill />
-            </Link>
-          </div>
-          <DynamicProductsSlider
-            key={data.sections[1].id}
-            title={data.sections[1].name}
-            subs={data.sections[1].categories}
-            products={data.sections[1].products}
-          />
+          {laneBanner.length > 0 && (
+            <div className="bannersSlider">
+              <Link href={laneBanner[0].link || ""} className="bannerItem">
+                <Image src={laneBanner[0].desktop_image} alt="Banner" fill />
+              </Link>
+            </div>
+          )}
+
+          {data.sections[1] && (
+            <DynamicProductsSlider
+              key={data.sections[1].id}
+              title={data.sections[1].name}
+              subs={data.sections[1].categories}
+              products={data.sections[1].products}
+            />
+          )}
+
           {/* <div className="bannerAmdIntel">
             <div className="bannerAmd">
               <button>POGLEDAJ PONUDU</button>
