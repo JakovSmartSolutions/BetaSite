@@ -29,5 +29,5 @@ export const getParams = (attributes: Attribute[], query: any) => {
     (el) => `${el.id}(${el.values.map((val) => val.value.id)})`
   );
 
-  return res.join(',');
+  return res.join(';');
 };
