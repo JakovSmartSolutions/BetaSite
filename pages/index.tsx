@@ -51,7 +51,7 @@ export default function Home({ data, banners }: Props) {
           />
           {laneBanner.length > 0 && (
             <div className="bannersSlider">
-              <Link href={laneBanner[0].link || ""} className="bannerItem">
+              <Link href={laneBanner[0].link || " "} className="bannerItem">
                 <Image src={laneBanner[0].desktop_image} alt="Banner" fill />
               </Link>
             </div>
