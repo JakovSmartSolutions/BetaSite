@@ -1,9 +1,9 @@
-import { CartItem } from 'api/cart/types';
-import { useCart } from 'hooks/useCart';
-import { useWishlist } from 'hooks/useWishlist';
-import Image from 'next/image';
-import { useAuthStore } from 'stores/AuthStore';
-import { formatPrice } from 'utils/price';
+import { CartItem } from "api/cart/types";
+import { useCart } from "hooks/useCart";
+import { useWishlist } from "hooks/useWishlist";
+import Image from "next/image";
+import { useAuthStore } from "stores/AuthStore";
+import { formatPrice } from "utils/price";
 
 interface Props {
   items: CartItem[];
@@ -12,10 +12,11 @@ interface Props {
 
 export const CartItems = ({ items, isCart }: Props) => {
   const { user } = useAuthStore();
-  const { removeFromCart } = useCart();
+  const { removeFromCart, updateItemInCart } = useCart();
+
   const { removeFromWishlist, transferInCart } = useWishlist();
 
-  const buttonText = isCart ? 'korpe' : 'liste želja';
+  const buttonText = isCart ? "korpe" : "liste želja";
 
   const removeWishlist = (item: CartItem) =>
     removeFromWishlist({
@@ -28,6 +29,10 @@ export const CartItems = ({ items, isCart }: Props) => {
       id: user?.id,
       product_id: item.product.id,
     });
+  const onUpdate = (product_id: number, quantity: number) => {
+    //if (quantity === 0) return;
+    updateItemInCart({ id: user?.id, product_id, quantity });
+  };
 
   return (
     <div className="cartItems">
@@ -62,6 +67,16 @@ export const CartItems = ({ items, isCart }: Props) => {
                   Prebaci u korpu
                 </button>
               )}
+              <div className="counter">
+                <p onClick={() => onUpdate(item.product.id, item.quantity - 1)}>
+                  -
+                </p>
+                <p>{item.quantity}</p>
+                <p onClick={() => onUpdate(item.product.id, item.quantity + 1)}>
+                  +
+                </p>
+                {/* <DownArrowIcon onClick={() => onUpdate(item.product.id, 1)} /> */}
+              </div>
               <button
                 className="btn-primary disabled"
                 onClick={

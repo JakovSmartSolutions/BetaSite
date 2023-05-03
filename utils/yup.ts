@@ -38,7 +38,20 @@ export const checkoutYup = Yup.object().shape({
   name: Yup.string().required(),
   last_name: Yup.string().required(),
   company_name: Yup.string(),
-  company_pib: Yup.string(),
+  company_pib: Yup.string().test(
+    "is-number",
+    "PIB mora biti broj",
+    function (value) {
+      // Custom validation function
+      if (
+        this.parent.company_pib === undefined ||
+        (Number(value) >= 0 && !Number.isNaN(Number(value)))
+      ) {
+        return true; // Validation passed
+      }
+      return false; // Validation failed
+    }
+  ),
   address: Yup.string().required(),
   city: Yup.string().required(),
   phone_number: Yup.number().required(),

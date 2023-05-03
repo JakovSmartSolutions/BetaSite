@@ -1,0 +1,38 @@
+.singleNewsPage {
+  .container {
+    .photo {
+      width: 350px;
+      height: 350px;
+      position: relative;
+      margin: 50px auto;
+      border-radius: $border-radius;
+      box-shadow: $box-shadow;
+      overflow: hidden;
+      @include media-max(500px) {
+        width: 100%;
+        height: 300px;
+        margin: 30px 0;
+      }
+    }
+    h1 {
+      margin: 0;
+    }
+    .date {
+      color: $color-text-secondary;
+      font-weight: 300;
+      display: block;
+      margin-bottom: 20px;
+    }
+    .postBody {
+      p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 20px;
+      }
+      b,
+      strong {
+        font-weight: 600;
+      }
+    }
+  }
+}

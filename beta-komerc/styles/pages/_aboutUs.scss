@@ -1,0 +1,31 @@
+.aboutUsPage {
+  padding-bottom: 60px;
+  .container {
+    h1 {
+      font-weight: 500;
+      font-size: 20px;
+    }
+    .banner {
+      width: 100%;
+      height: 300px;
+      border-radius: $border-radius;
+      background: #2b2a28;
+      @include flexCenter;
+      margin: 20px 0 70px;
+      overflow: hidden;
+      @include media-max($bp-xl) {
+        height: 250px;
+      }
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      grid-gap: 20px;
+
+      li {
+        list-style: disc;
+        margin-left: 18px;
+      }
+    }
+  }
+}

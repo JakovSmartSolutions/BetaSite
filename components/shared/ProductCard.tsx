@@ -70,6 +70,19 @@ export const ProductCard = ({ product }: Props) => {
           isAddedToWishList={isAddedToWishList}
           onClick={isAddedToWishList ? removeFromWishList : addInWishList}
         />
+        <div className="catalogStickers">
+          {product.catalog_stickers &&
+            product.catalog_stickers
+              .filter((s) => (s.sticker_active = 1))
+              .map((sticker) => (
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_SITE_URL}/storage/${sticker.sticker}`}
+                  alt={product.name}
+                  width={50}
+                  height={50}
+                ></Image>
+              ))}
+        </div>
         <div className="photo">
           {main_image && (
             <Image
@@ -108,11 +121,16 @@ export const ProductCard = ({ product }: Props) => {
           product.valuable_attributes.length > 0 && (
             <div className="specs">
               <ul>
-                <li>
+                {product.valuable_attributes.slice(0, 4).map((attribute) => (
+                  <li key={attribute.attribute.name}>
+                    {attribute.attribute.name}: {attribute.value.value}{" "}
+                  </li>
+                ))}
+                {/* <li>
                   {product.valuable_attributes[0].attribute.name}:{" "}
                   {product.valuable_attributes[0].value.value}
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   {product.valuable_attributes[1].attribute.name}:{" "}
                   {product.valuable_attributes[1].value.value}
                 </li>
@@ -123,11 +141,12 @@ export const ProductCard = ({ product }: Props) => {
                 <li>
                   {product.valuable_attributes[3].attribute.name}:{" "}
                   {product.valuable_attributes[3].value.value}
-                </li>
+                </li> */}
               </ul>
             </div>
           )}
-        {!product.attributes && product.valuable_attributes.length < 1 && (
+        {/* {!product.attributes && !product.valuable_attributes && product.valuable_attributes.length < 1 && ( */}
+        {!product.attributes && !product.valuable_attributes && (
           <div className="specs"></div>
         )}
 
@@ -144,7 +163,7 @@ export const ProductCard = ({ product }: Props) => {
             e.preventDefault();
             if (isInCart) return push("/zavrsetak-kupovine");
             addToCart({ product_id: product.id, quantity: 1, id: user?.id });
-            push("/zavrsetak-kupovine");
+            setTimeout(() => push("/zavrsetak-kupovine"), 1000);
           }}
         >
           <CartIcon />

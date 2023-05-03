@@ -1,0 +1,50 @@
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 12px 24px;
+  background: $color-light;
+  border-radius: $border-radius-input;
+  border: 1px solid transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: $color-text-primary;
+  transition: all 0.2s ease-in-out;
+}
+
+textarea {
+  resize: none;
+  border-radius: $border-radius;
+  height: 150px;
+}
+
+input,
+textarea {
+  &::placeholder {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: $color-text-secondary;
+  }
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: $color-text-primary;
+  margin-bottom: 15px;
+  @include media-max($bp-sm) {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+
+.errorMsg {
+  font-weight: 300;
+  color: $color-danger;
+  font-size: 14px;
+  margin-top: 5px;
+}

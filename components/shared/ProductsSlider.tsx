@@ -20,25 +20,6 @@ export const ProductsSlider = ({
   products,
   isPrimary = false,
 }: Props) => {
-  // let name1;
-  // let slug1;
-
-  // let name2;
-  // let slug2;
-
-  // let name3;
-  // let slug3;
-  // if (subs.length > 0) {
-  //   name1 = subs[0].name;
-  //   slug1 = subs[0].slug;
-
-  //   // name2 = subs[1].name;
-  //   // slug2 = subs[1].slug;
-
-  //   // name3 = subs[2].name;
-  //   // slug3 = subs[2].slug;
-  // }
-
   return (
     <>
       <div className="sectionContainer">

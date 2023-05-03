@@ -1,9 +1,11 @@
-import { Checkbox } from 'components/ui/Checkbox';
-import { useFormikContext } from 'formik';
-import { intersectionWith } from 'lodash';
-import { useCartStore } from 'stores/CartStore';
-import { formatPrice } from 'utils/price';
-import PreviewItem from './PreviewItem';
+import { Checkbox } from "components/ui/Checkbox";
+import { useFormikContext } from "formik";
+//import { intersectionWith } from "lodash";
+import { useCartStore } from "stores/CartStore";
+import { formatPrice } from "utils/price";
+import PreviewItem from "./PreviewItem";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSpinner } from "@fortawesome/free-solid-svg-icons";
 
 interface Props {
   isLoading: boolean;
@@ -14,7 +16,7 @@ const OrderInfo = ({ isLoading }: Props) => {
   const { values, setFieldValue }: any = useFormikContext();
 
   const triggercheckBox = (value: string) =>
-    setFieldValue('payment_method', value);
+    setFieldValue("payment_method", value);
 
   return (
     <div className="orderInfo">
@@ -32,29 +34,29 @@ const OrderInfo = ({ isLoading }: Props) => {
       <div className="checkboxes">
         <div className="checkboxRow">
           <Checkbox
-            isChecked={values['payment_method'] === 'upon_delivery'}
-            onClick={() => triggercheckBox('upon_delivery')}
+            isChecked={values["payment_method"] === "upon_delivery"}
+            onClick={() => triggercheckBox("upon_delivery")}
           />
           <p>Plaćanje prilikom preuzimanja</p>
         </div>
         <div className="checkboxRow">
           <Checkbox
-            isChecked={values['payment_method'] === 'checks_upon_delivery'}
-            onClick={() => triggercheckBox('checks_upon_delivery')}
+            isChecked={values["payment_method"] === "checks_upon_delivery"}
+            onClick={() => triggercheckBox("checks_upon_delivery")}
           />
           <p>Čekovima prilikom preuzimanja</p>
         </div>
         <div className="checkboxRow">
           <Checkbox
-            isChecked={values['payment_method'] === 'in_store'}
-            onClick={() => triggercheckBox('in_store')}
+            isChecked={values["payment_method"] === "in_store"}
+            onClick={() => triggercheckBox("in_store")}
           />
           <p>U našim radnjama</p>
         </div>
         <div className="checkboxRow">
           <Checkbox
-            isChecked={values['payment_method'] === 'current_account'}
-            onClick={() => triggercheckBox('current_account')}
+            isChecked={values["payment_method"] === "current_account"}
+            onClick={() => triggercheckBox("current_account")}
           />
           <p>Uplatom na tekući račun</p>
         </div>
@@ -63,7 +65,7 @@ const OrderInfo = ({ isLoading }: Props) => {
       <div className="checkboxRow">
         <Checkbox
           isChecked={values.terms === true}
-          onClick={() => setFieldValue('terms', !values.terms)}
+          onClick={() => setFieldValue("terms", !values.terms)}
         />
         <p>Pročitao/la sam i prihvatam uslove web mesta.</p>
       </div>
@@ -73,7 +75,7 @@ const OrderInfo = ({ isLoading }: Props) => {
         className="btn-primary"
         disabled={!values.terms || isLoading}
       >
-        Naručite
+        {isLoading ? <FontAwesomeIcon icon={faSpinner} spin /> : "Naručite"}
       </button>
     </div>
   );

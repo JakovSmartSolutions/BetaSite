@@ -3,6 +3,8 @@ import { useState } from "react";
 import { SingleProduct } from "types/singleProduct.types";
 import { useAuthStore } from "stores/AuthStore";
 import { useCart } from "hooks/useCart";
+import { useCartStore } from "@/stores/CartStore";
+import { useRouter } from "next/router";
 
 interface Props {
   product: SingleProduct;
@@ -10,8 +12,11 @@ interface Props {
 
 export const Actions = ({ product }: Props) => {
   const [quantity, setQuantity] = useState(1);
+  const { push } = useRouter();
   const { user } = useAuthStore();
   const { addToCart } = useCart();
+  const { items: cartItems } = useCartStore();
+  const isInCart = cartItems.some((item) => item.product.id === product.id);
 
   const onDecrement = () => {
     if (quantity > 1) setQuantity((prev) => (prev < 1 ? prev : prev - 1));
@@ -35,9 +40,11 @@ export const Actions = ({ product }: Props) => {
       <div className="buttonContainer">
         <button
           className="btn-primary"
-          onClick={() =>
-            addToCart({ product_id: product.id, quantity, id: user?.id })
-          }
+          onClick={(e) => {
+            if (isInCart) return push("/zavrsetak-kupovine");
+            addToCart({ product_id: product.id, quantity, id: user?.id });
+            setTimeout(() => push("/zavrsetak-kupovine"), 1000);
+          }}
         >
           Kupi odmah
         </button>

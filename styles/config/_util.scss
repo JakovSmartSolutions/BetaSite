@@ -5,7 +5,7 @@ $border-radius-banner-button: 5px;
 $box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 $bp-xxl: 1700px;
 $bp-xl: 1500px;
-$bp-lg: 1300px;
+$bp-lg: 1380px;
 $bp-md: 1150px;
 $bp-sm: 1024px;
 $bp-xs: 700px;
@@ -16,13 +16,13 @@ $bp-xxs: 400px;
   padding: 0 130px;
   margin: 0 auto;
   @include media-max($bp-xxl) {
-    padding: 0 100px;
-  }
-  @include media-max($bp-xl) {
     padding: 0 80px;
   }
-  @include media-max($bp-lg) {
+  @include media-max($bp-xl) {
     padding: 0 50px;
+  }
+  @include media-max($bp-lg) {
+    padding: 0 30px;
   }
   @include media-max($bp-md) {
     padding: 0 25px;

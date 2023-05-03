@@ -1,0 +1,2037 @@
+{
+  "id": 1,
+  "name": "web",
+  "slug": "web",
+  "products": [
+    {
+      "id": 178946,
+      "sku": "MNT2454A00000",
+      "name": "Montitor AOC 24G2SAE/BK 23.8 Gaming VA 1920x1080 at 165Hz 1ms 3000:1 3-sided frameless Speakers VGA 2xHDMI DP Tilt 3y",
+      "slug": "montitor-aoc-24g2saebk-238-gaming-va-1920x1080-at-165hz-1ms-30001-3-sided-frameless-speakers-vga-2xhdmi-dp-tilt-3y",
+      "price": 21570,
+      "web_price": 22240,
+      "retail_price": 26230,
+      "dealer_price": 22666.64,
+      "authenticated_price": 22240,
+      "discount": {
+        "id": 18117,
+        "type": {
+          "id": 50,
+          "name": "MONITORI!!! Nedeljna Akcija 13.02-20.02.2023 - 15%",
+          "percentage": "3.00",
+          "price": null,
+          "sticker": "images/discount-sticker/discount-sticker-YieEYpfqcMiJKWbEOdCY8i5mrl19CRsDvSdlxFl5.png"
+        },
+        "price": 21570,
+        "from": "2023-02-13",
+        "to": "2023-02-20",
+        "sticker": "images/discount-sticker/discount-sticker-YieEYpfqcMiJKWbEOdCY8i5mrl19CRsDvSdlxFl5.png"
+      },
+      "main_image": {
+        "id": 13135,
+        "main": true,
+        "tiny": "https://api.jakov.rs/storage/images/products/tiny-n94oyJw6HfrN6ZoxPRY6NYpAtwUG4vU9xWv4V42p.jpg",
+        "small": "https://api.jakov.rs/storage/images/products/small-n94oyJw6HfrN6ZoxPRY6NYpAtwUG4vU9xWv4V42p.jpg",
+        "medium": "https://api.jakov.rs/storage/images/products/medium-n94oyJw6HfrN6ZoxPRY6NYpAtwUG4vU9xWv4V42p.jpg",
+        "large": "https://api.jakov.rs/storage/images/products/large-n94oyJw6HfrN6ZoxPRY6NYpAtwUG4vU9xWv4V42p.jpg"
+      },
+      "main_category_slug": "preko-22-inca",
+      "order": 1
+    },
+    {
+      "id": 153671,
+      "sku": "SSD0313A00000",
+      "name": "SSD Silicon Power Slim S55 - 240 GB 2.5\" SATA3,  R-550 MBs / W-450 MBs, SP240GBSS3S55S25",
+      "slug": "ssd-silicon-power-slim-s55-240-gb-25-sata3-r-550-mbs-w-450-mbs-sp240gbss3s55s25",
+      "price": 2490,
+      "web_price": 2050,
+      "retail_price": 2380,
+      "dealer_price": 2053.77,
+      "authenticated_price": 2050,
+      "discount": {
+        "id": 15671,
+        "type": null,
+        "price": 2490,
+        "from": "2023-01-25",
+        "to": "2023-02-15",
+        "sticker": null
+      },
+      "main_image": {
+        "id": 70993,
+        "main": true,
+        "tiny": "https://api.jakov.rs/storage/images/products/ssd-tiny-kevS9Vb2M3TBzz9wQhvRKxiqX4FGMq4aaqbcE5VU.png",
+        "small": "https://api.jakov.rs/storage/images/products/ssd-small-kevS9Vb2M3TBzz9wQhvRKxiqX4FGMq4aaqbcE5VU.png",
+        "medium": "https://api.jakov.rs/storage/images/products/ssd-medium-kevS9Vb2M3TBzz9wQhvRKxiqX4FGMq4aaqbcE5VU.png",
+        "large": "https://api.jakov.rs/storage/images/products/ssd-large-kevS9Vb2M3TBzz9wQhvRKxiqX4FGMq4aaqbcE5VU.png"
+      },
+      "main_category_slug": "ssd",
+      "order": 2
+    },
+    {
+      "id": 179704,
+      "sku": "TV4431A00000",
+      "name": "Televizor Fox 43WOS620D Smart DLED 4K UHD 43\" ATV/DTV-C T T2 S S2",
+      "slug": "televizor-fox-43wos620d-smart-dled-4k-uhd-43-atvdtv-c-t-t2-s-s2",
+      "price": 29160,
+      "web_price": 29160,
+      "retail_price": 34290,
+      "dealer_price": 32400.58,
+      "authenticated_price": 29160,
+      "discount": null,
+      "main_image": {
+        "id": 15052,
+        "main": true,
+        "tiny": "https://api.jakov.rs/storage/images/products/tiny-6KH7p6NmiOxLyDyO1EeNgIbhVPus844Pobd37u5s.jpg",
+        "small": "https://api.jakov.rs/storage/images/products/small-6KH7p6NmiOxLyDyO1EeNgIbhVPus844Pobd37u5s.jpg",
+        "medium": "https://api.jakov.rs/storage/images/products/medium-6KH7p6NmiOxLyDyO1EeNgIbhVPus844Pobd37u5s.jpg",
+        "large": "https://api.jakov.rs/storage/images/products/large-6KH7p6NmiOxLyDyO1EeNgIbhVPus844Pobd37u5s.jpg"
+      },
+      "main_category_slug": "televizori",
+      "order": 3
+    },
+    {
+      "id": 221414,
+      "sku": "BAZ000205A00000",
+      "name": "Montažni bazen Bestway 427 x 107cm BW-188578",
+      "slug": "montazni-bazen-bestway-427-x-107cm-bw-188578",
+      "price": 32990,
+      "web_price": 36070,
+      "retail_price": 44920,
+      "dealer_price": 37712.75,
+      "authenticated_price": 36070,
+      "discount": {
+        "id": 18309,
+        "type": null,
+        "price": 32990,
+        "from": "2023-02-14",
+        "to": "2023-02-28",
+        "sticker": null
+      },
+      "main_image": {
+        "id": 39256,
+        "main": true,
+        "tiny": "https://api.jakov.rs/storage/images/products/montazni-bazen-427x107cm-13030l-bw-188578-tiny-20221116132206000000",
+        "small": "https://api.jakov.rs/storage/images/products/montazni-bazen-427x107cm-13030l-bw-188578-small-20221116132207000000",
+        "medium": "https://api.jakov.rs/storage/images/products/montazni-bazen-427x107cm-13030l-bw-188578-medium-20221116132207000000",
+        "large": "https://api.jakov.rs/storage/images/products/montazni-bazen-427x107cm-13030l-bw-188578-large-20221116132208000000"
+      },
+      "main_category_slug": "bazeni-i-oprema",
+      "order": 4
+    },
+    {
+      "id": 321929,
+      "sku": "MNT003527A00000",
+      "name": "Monitor AOC M2470SWH 23\"6 LED",
+      "slug": "monitor-aoc-m2470swh-236-led",
+      "price": 14620,
+      "web_price": 14620,
+      "retail_price": 17250,
+      "dealer_price": 14904.39,
+      "authenticated_price": 14620,
+      "discount": null,
+      "main_image": {
+        "id": 122319,
+        "main": true,
+        "tiny": "https://api.jakov.rs/storage/images/products/preko-22-inca-tiny-Lt71jXqdoYujgB3DiQRYVFgPIFfnb7b61zun6yWv.jpg",
+        "small": "https://api.jakov.rs/storage/images/products/preko-22-inca-small-Lt71jXqdoYujgB3DiQRYVFgPIFfnb7b61zun6yWv.jpg",
+        "medium": "https://api.jakov.rs/storage/images/products/preko-22-inca-medium-Lt71jXqdoYujgB3DiQRYVFgPIFfnb7b61zun6yWv.jpg",
+        "large": "https://api.jakov.rs/storage/images/products/preko-22-inca-large-Lt71jXqdoYujgB3DiQRYVFgPIFfnb7b61zun6yWv.jpg"
+      },
+      "main_category_slug": "preko-22-inca",
+      "order": 5
+    },
+    {
+      "id": 322295,
+      "sku": "RPC004402A00000",
+      "name": "Racunar DSCL Ryzen 5 3400G 8GB 256GB 500W",
+      "slug": "racunar-dscl-ryzen-5-3400g-8gb-256gb-500w",
+      "price": 29870,
+      "web_price": 29870,
+      "retail_price": 33040,
+      "dealer_price": 28554.56,
+      "authenticated_price": 29870,
+      "discount": null,
+      "main_image": {
+        "id": 122982,
+        "main": true,
+        "tiny": "https://api.jakov.rs/storage/images/products/racunar-dscl-ryzen-5-3400g8gb256gb500w-tiny-20230113113153000000",
+        "small": "https://api.jakov.rs/storage/images/products/racunar-dscl-ryzen-5-3400g8gb256gb500w-small-20230113113153000000",
+        "medium": "https://api.jakov.rs/storage/images/products/racunar-dscl-ryzen-5-3400g8gb256gb500w-medium-20230113113154000000",
+        "large": "https://api.jakov.rs/storage/images/products/racunar-dscl-ryzen-5-3400g8gb256gb500w-large-20230113113154000000"
+      },
+      "main_category_slug": "amd-konfiguracije",
+      "order": 6
+    },
+    {
+      "id": 321318,
+      "sku": "SSD001286A00000",
+      "name": "SSD Geil Zenith Z3 1 TB - 2.5 \" SATA3, GZ25Z3-1TBP",
+      "slug": "ssd-geil-zenith-z3-1-tb-25-sata3-gz25z3-1tbp",
+      "price": 7110,
+      "web_price": 7110,
+      "retail_price": 8340,
+      "dealer_price": 7182.86,
+      "authenticated_price": 7110,
+      "discount": null,
+      "main_image": {
+        "id": 120878,
+        "main": true,
+        "tiny": "https://api.jakov.rs/storage/images/products/1tb-25-sata3-ssd-zenith-z3-gz25z3-1tbp-tiny-20230105081409000000",
+        "small": "https://api.jakov.rs/storage/images/products/1tb-25-sata3-ssd-zenith-z3-gz25z3-1tbp-small-20230105081410000000",
+        "medium": "https://api.jakov.rs/storage/images/products/1tb-25-sata3-ssd-zenith-z3-gz25z3-1tbp-medium-20230105081410000000",
+        "large": "https://api.jakov.rs/storage/images/products/1tb-25-sata3-ssd-zenith-z3-gz25z3-1tbp-large-20230105081411000000"
+      },
+      "main_category_slug": "ssd",
+      "order": 7
+    },
+    {
+      "id": 299136,
+      "sku": "CPU001274A00000",
+      "name": "Procesor AMD Ryzen 7 5700X - 8 jezgra, 3.4 GHz (T - 4.6 GHz), Box",
+      "slug": "procesor-amd-ryzen-7-5700x-8-jezgra-34-ghz-t-46-ghz-box",
+      "price": 28400,
+      "web_price": 30140,
+      "retail_price": 33550,
+      "dealer_price": 31853.55,
+      "authenticated_price": 30140,
+      "discount": {
+        "id": 16932,
+        "type": null,
+        "price": 28400,
+        "from": "2023-02-09",
+        "to": "2023-02-28",
+        "sticker": null
+      },
+      "main_image": {
+        "id": 99654,
+        "main": true,
+        "tiny": "https://api.jakov.rs/storage/images/products/cpu-amd-ryzen-7-5700x-8-cores-34ghz-46ghz-box-tiny-20221223105438000000",
+        "small": "https://api.jakov.rs/storage/images/products/cpu-amd-ryzen-7-5700x-8-cores-34ghz-46ghz-box-small-20221223105438000000",
+        "medium": "https://api.jakov.rs/storage/images/products/cpu-amd-ryzen-7-5700x-8-cores-34ghz-46ghz-box-medium-20221223105438000000",
+        "large": "https://api.jakov.rs/storage/images/products/cpu-amd-ryzen-7-5700x-8-cores-34ghz-46ghz-box-large-20221223105438000000"
+      },
+      "main_category_slug": "amd-procesori",
+      "order": 8
+    },
+    {
+      "id": 220269,
+      "sku": "HA007936A00000",
+      "name": "Električni samostojeći kamin 2000W FKK15",
+      "slug": "elektricni-samostojeci-kamin-2000w-fkk15",
+      "price": 7990,
+      "web_price": 8770,
+      "retail_price": 10530,
+      "dealer_price": 9096.56,
+      "authenticated_price": 8770,
+      "discount": {
+        "id": 18308,
+        "type": null,
+        "price": 7990,
+        "from": "2023-02-14",
+        "to": "2023-02-28",
+        "sticker": null
+      },
+      "main_image": {
+        "id": 38111,
+        "main": true,
+        "tiny": "https://api.jakov.rs/storage/images/products/elektricni-samostojeci-kamin-2000w-fkk15-tiny-20221116125113000000",
+        "small": "https://api.jakov.rs/storage/images/products/elektricni-samostojeci-kamin-2000w-fkk15-small-20221116125113000000",
+        "medium": "https://api.jakov.rs/storage/images/products/elektricni-samostojeci-kamin-2000w-fkk15-medium-20221116125114000000",
+        "large": "https://api.jakov.rs/storage/images/products/elektricni-samostojeci-kamin-2000w-fkk15-large-20221116125114000000"
+      },
+      "main_category_slug": "grejalice-i-radijatori",
+      "order": 9
+    },
+    {
+      "id": 333570,
+      "sku": "PRL005981A00000",
+      "name": "Laserski štampač HP M107a",
+      "slug": "laserski-stampac-hp-m107a",
+      "price": 13990,
+      "web_price": 13180,
+      "retail_price": 14740,
+      "dealer_price": 13186.8,
+      "authenticated_price": 13180,
+      "discount": {
+        "id": 18310,
+        "type": null,
+        "price": 13990,
+        "from": "2023-02-14",
+        "to": "2023-02-28",
+        "sticker": null
+      },
+      "main_image": {
+        "id": 130457,
+        "main": true,
+        "tiny": "https://api.jakov.rs/storage/images/products/laserski-stampac-hp-107a-tiny-20230121060404000000",
+        "small": "https://api.jakov.rs/storage/images/products/laserski-stampac-hp-107a-small-20230121060404000000",
+        "medium": "https://api.jakov.rs/storage/images/products/laserski-stampac-hp-107a-medium-20230121060405000000",
+        "large": "https://api.jakov.rs/storage/images/products/laserski-stampac-hp-107a-large-20230121060405000000"
+      },
+      "main_category_slug": "laserski-crno-beli",
+      "order": 10
+    }
+  ],
+  "categories": [
+    {
+      "id": 45,
+      "name": "Laptopovi",
+      "slug": "laptopovi",
+      "order": 1,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-DI7I5kJl7ZOd1WfuKbCjYXQbmyYTC0ZEVNtx3AgJ.png"
+    },
+    {
+      "id": 46,
+      "name": "Desktop računari",
+      "slug": "desktop-racunari",
+      "order": 2,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-nvMLEeXNYUM0Z3xow8opj2UtLVjPuT66iRC6JLeu.png"
+    },
+    {
+      "id": 262,
+      "name": "Televizori",
+      "slug": "televizori",
+      "order": 3,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-om6tv4i9rJ5exh6f8IrOFfj3exJsVsjyVDYpv5tn.png"
+    },
+    {
+      "id": 133,
+      "name": "Klima uređaji",
+      "slug": "klima-uredaji",
+      "order": 4,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-sMHDahJe9WduBu5EX5qIhV2V7HgGGAIyaJN3MVaf.png"
+    },
+    {
+      "id": 107,
+      "name": "Alati i mašine",
+      "slug": "alati-i-masine",
+      "order": 5,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-sLtEey7NOPSxFCIVe9m10Fn04MxyvVfHiVFrSEFY.png"
+    },
+    {
+      "id": 611,
+      "name": "Bebi i dečije igračke",
+      "slug": "bebi-i-decije-igracke",
+      "order": 6,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-u09wqvXnpuw1tKg4isOIsaOlEErYAfNvjnynlpJO.png"
+    },
+    {
+      "id": 118,
+      "name": "Mobilni SMART telefoni",
+      "slug": "mobilni-smart-telefoni",
+      "order": 7,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-WLSGtB9jwWoU94aoK3wbJdvfyIyX6HdEkC4o4MGs.png"
+    },
+    {
+      "id": 53,
+      "name": "Gaming",
+      "slug": "gaming",
+      "order": 8,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-NO2JxmDdDsXEOHrvQIBcUNzMlxLijd8da9tOYMy3.png"
+    },
+    {
+      "id": 68,
+      "name": "Bela tehnika",
+      "slug": "bela-tehnika",
+      "order": 9,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-y3JwqvHgKxk6e24beQvqUvqG9cNVzVNufQHQGPLf.png"
+    },
+    {
+      "id": 76,
+      "name": "Mali kućni aparati",
+      "slug": "mali-kucni-aparati",
+      "order": 10,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-7KXYTyWrNUEPkWUEVL2nx5VBkXqPnJPFOatLF6jX.png"
+    },
+    {
+      "id": 116,
+      "name": "Kućni ljubimci PET Shop",
+      "slug": "kucni-ljubimci-pet-shop",
+      "order": 11,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-j34PxYpes8HD1wSICzJKxChXMEhgLe7YRzBB9F14.png"
+    },
+    {
+      "id": 422,
+      "name": "Bicikli",
+      "slug": "bicikli",
+      "order": 12,
+      "image": "https://api.jakov.rs/storage/images/home-categories/home-category-giONxbSe7xo6KakNQi2BvEeV2UdlkTIWevAVTJjc.png"
+    }
+  ],
+  "sections": [
+    {
+      "id": 2,
+      "name": "Televizori i Soundbar",
+      "order": 2,
+      "categories": [
+        {
+          "id": 262,
+          "name": "Televizori",
+          "slug": "televizori",
+          "order": 1,
+          "image": null
+        },
+        {
+          "id": 263,
+          "name": "Oprema za televizore",
+          "slug": "oprema-za-televizore",
+          "order": 2,
+          "image": null
+        },
+        {
+          "id": 199,
+          "name": "Soundbar zvučnici",
+          "slug": "soundbar-zvucnici",
+          "order": 3,
+          "image": null
+        }
+      ],
+      "products": [
+        {
+          "id": 131894,
+          "sku": "TV3976A00000",
+          "name": "Televizor SMART LED TV 43\" LG 43NANO753PA 3840x2160 UHD 4K DVB-T2/S2/C",
+          "slug": "televizor-smart-led-tv-43-lg-43nano753pa-3840x2160-uhd-4k-dvb-t2s2c",
+          "price": 56680,
+          "web_price": 56680,
+          "retail_price": 68560,
+          "dealer_price": 64785.6,
+          "authenticated_price": 56680,
+          "main_image": {
+            "id": 513,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-raXsSSKOwps7lKDY4Uzz6hrwgPs2HcOjIWp4i4xJ.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-raXsSSKOwps7lKDY4Uzz6hrwgPs2HcOjIWp4i4xJ.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-raXsSSKOwps7lKDY4Uzz6hrwgPs2HcOjIWp4i4xJ.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-raXsSSKOwps7lKDY4Uzz6hrwgPs2HcOjIWp4i4xJ.jpg"
+          },
+          "main_category_slug": "televizori",
+          "order": 1
+        },
+        {
+          "id": 179704,
+          "sku": "TV4431A00000",
+          "name": "Televizor Fox 43WOS620D Smart DLED 4K UHD 43\" ATV/DTV-C T T2 S S2",
+          "slug": "televizor-fox-43wos620d-smart-dled-4k-uhd-43-atvdtv-c-t-t2-s-s2",
+          "price": 29160,
+          "web_price": 29160,
+          "retail_price": 34290,
+          "dealer_price": 32400.58,
+          "authenticated_price": 29160,
+          "main_image": {
+            "id": 15052,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-6KH7p6NmiOxLyDyO1EeNgIbhVPus844Pobd37u5s.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-6KH7p6NmiOxLyDyO1EeNgIbhVPus844Pobd37u5s.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-6KH7p6NmiOxLyDyO1EeNgIbhVPus844Pobd37u5s.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-6KH7p6NmiOxLyDyO1EeNgIbhVPus844Pobd37u5s.jpg"
+          },
+          "main_category_slug": "televizori",
+          "order": 2
+        },
+        {
+          "id": 120329,
+          "sku": "TV3585A00000",
+          "name": "Televizor  PHILIPS  58PUS6504/12 SMART (Crni) LED, 58\" (147.3 cm), 4K Ultra HD, DVB-T/T2/C/S/S2",
+          "slug": "televizor-philips-58pus650412-smart-crni-led-58-1473-cm-4k-ultra-hd-dvb-tt2css2",
+          "price": 69320,
+          "web_price": 69320,
+          "retail_price": 80770,
+          "dealer_price": 76320,
+          "authenticated_price": 68490,
+          "main_image": {
+            "id": 15314,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-HvHUyrMAqGoYMmqEy4Dz7yyNhYHXMCbEe0d1vbFd.png",
+            "small": "https://api.jakov.rs/storage/images/products/small-HvHUyrMAqGoYMmqEy4Dz7yyNhYHXMCbEe0d1vbFd.png",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-HvHUyrMAqGoYMmqEy4Dz7yyNhYHXMCbEe0d1vbFd.png",
+            "large": "https://api.jakov.rs/storage/images/products/large-HvHUyrMAqGoYMmqEy4Dz7yyNhYHXMCbEe0d1vbFd.png"
+          },
+          "main_category_slug": "televizori",
+          "order": 3
+        },
+        {
+          "id": 131723,
+          "sku": "TV4090A00000",
+          "name": "Televizor Stella S32D52 LED TV 32\" HD Ready DVB-T2 Crna",
+          "slug": "televizor-stella-s32d52-led-tv-32-hd-ready-dvb-t2-crna",
+          "price": 12420,
+          "web_price": 12420,
+          "retail_price": 13710,
+          "dealer_price": 12960.23,
+          "authenticated_price": 12420,
+          "main_image": {
+            "id": 766,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-IwwhliJL7L1tg0S09ZM6qc3KcVXRC9NUzmYLn264.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-IwwhliJL7L1tg0S09ZM6qc3KcVXRC9NUzmYLn264.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-IwwhliJL7L1tg0S09ZM6qc3KcVXRC9NUzmYLn264.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-IwwhliJL7L1tg0S09ZM6qc3KcVXRC9NUzmYLn264.jpg"
+          },
+          "main_category_slug": "televizori",
+          "order": 7
+        },
+        {
+          "id": 333595,
+          "sku": "TV006146A00000",
+          "name": "Televizor TCL 50C635 Smart TV 50\" 4K Ultra HD DVB-T2 QLED",
+          "slug": "televizor-tcl-50c635-smart-tv-50-4k-ultra-hd-dvb-t2-qled",
+          "price": 56990,
+          "web_price": 55650,
+          "retail_price": 66670,
+          "dealer_price": 63002.28,
+          "authenticated_price": 55650,
+          "discount": {
+            "id": 16210,
+            "type": null,
+            "price": 56990,
+            "from": "2023-02-02",
+            "to": "2023-02-15",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 130493,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/televizori-tiny-kKXnUa8q4C3IjA2i9Yx9NYZZgP1aBdj4h1DCPQdQ.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/televizori-small-kKXnUa8q4C3IjA2i9Yx9NYZZgP1aBdj4h1DCPQdQ.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/televizori-medium-kKXnUa8q4C3IjA2i9Yx9NYZZgP1aBdj4h1DCPQdQ.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/televizori-large-kKXnUa8q4C3IjA2i9Yx9NYZZgP1aBdj4h1DCPQdQ.jpg"
+          },
+          "main_category_slug": "televizori",
+          "order": 9
+        },
+        {
+          "id": 184674,
+          "sku": "TV4588A00000",
+          "name": "LED TV FOX 75\" Frameless 75WOS620D UHD 4K",
+          "slug": "led-tv-fox-75-frameless-75wos620d-uhd-4k",
+          "price": 93310,
+          "web_price": 93310,
+          "retail_price": 109720,
+          "dealer_price": 103680,
+          "authenticated_price": 93310,
+          "main_image": {
+            "id": 20217,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-024cw2s54teD0C7Za2KzHXr9YKQCqR0xPNmxHo7r.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-024cw2s54teD0C7Za2KzHXr9YKQCqR0xPNmxHo7r.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-024cw2s54teD0C7Za2KzHXr9YKQCqR0xPNmxHo7r.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-024cw2s54teD0C7Za2KzHXr9YKQCqR0xPNmxHo7r.jpg"
+          },
+          "main_category_slug": "televizori",
+          "order": 10
+        },
+        {
+          "id": 328625,
+          "sku": "TV006101A00000",
+          "name": "Televizor SMART LED TV 40 Tesla 40E635BFS 1920x1080/Full HD/DTV-T/T2/C",
+          "slug": "televizor-smart-led-tv-40-tesla-40e635bfs-1920x1080full-hddtv-tt2c",
+          "price": 24870,
+          "web_price": 24870,
+          "retail_price": 29240,
+          "dealer_price": 27637.03,
+          "authenticated_price": 24870,
+          "main_image": {
+            "id": 125374,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/smart-led-tv-40-tesla-40e635bfs-1920x1080full-hddtv-tt2c-tiny-20230117162232000000",
+            "small": "https://api.jakov.rs/storage/images/products/smart-led-tv-40-tesla-40e635bfs-1920x1080full-hddtv-tt2c-small-20230117162232000000",
+            "medium": "https://api.jakov.rs/storage/images/products/smart-led-tv-40-tesla-40e635bfs-1920x1080full-hddtv-tt2c-medium-20230117162232000000",
+            "large": "https://api.jakov.rs/storage/images/products/smart-led-tv-40-tesla-40e635bfs-1920x1080full-hddtv-tt2c-large-20230117162232000000"
+          },
+          "main_category_slug": "televizori",
+          "order": 11
+        },
+        {
+          "id": 181591,
+          "sku": "TV4542A00000",
+          "name": "Televizor LG Smart TV 43UQ80003LB 43\" 4K Ultra HD Crna",
+          "slug": "televizor-lg-smart-tv-43uq80003lb-43-4k-ultra-hd-crna",
+          "price": 50400,
+          "web_price": 50400,
+          "retail_price": 60960,
+          "dealer_price": 57600.69,
+          "authenticated_price": 50400,
+          "main_image": {
+            "id": 48772,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/televizori-tiny-BfgbGwfK9zRTpInlKsiaIE7F9juLcuFei8nuf2mN.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/televizori-small-BfgbGwfK9zRTpInlKsiaIE7F9juLcuFei8nuf2mN.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/televizori-medium-BfgbGwfK9zRTpInlKsiaIE7F9juLcuFei8nuf2mN.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/televizori-large-BfgbGwfK9zRTpInlKsiaIE7F9juLcuFei8nuf2mN.jpg"
+          },
+          "main_category_slug": "televizori",
+          "order": 12
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Laptop i Desktop računari",
+      "order": 1,
+      "categories": [
+        {
+          "id": 45,
+          "name": "Laptopovi",
+          "slug": "laptopovi",
+          "order": 1,
+          "image": null
+        },
+        {
+          "id": 46,
+          "name": "Desktop računari",
+          "slug": "desktop-racunari",
+          "order": 2,
+          "image": null
+        },
+        {
+          "id": 99,
+          "name": "Preko 22 inča",
+          "slug": "preko-22-inca",
+          "order": 3,
+          "image": null
+        }
+      ],
+      "products": [
+        {
+          "id": 139342,
+          "sku": "NOT1912A00000",
+          "name": "Laptop LENOVO IdeaPad 3 15ITL6 DOS 15.6\" FHD Celeron 6305 4GB 256GB SSD IntelUHD 82H800YVYA",
+          "slug": "laptop-lenovo-ideapad-3-15itl6-dos-156-fhd-celeron-6305-4gb-256gb-ssd-inteluhd-82h800yvya",
+          "price": 38870,
+          "web_price": 38870,
+          "retail_price": 45160,
+          "dealer_price": 40351.8,
+          "authenticated_price": 38481.3,
+          "main_image": {
+            "id": 20781,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/laptop-racunari-tiny-Jmzvz4jRpWK9MHnT7t0eZssaJfxQfV9kQGZ5shOr.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/laptop-racunari-small-Jmzvz4jRpWK9MHnT7t0eZssaJfxQfV9kQGZ5shOr.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/laptop-racunari-medium-Jmzvz4jRpWK9MHnT7t0eZssaJfxQfV9kQGZ5shOr.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/laptop-racunari-large-Jmzvz4jRpWK9MHnT7t0eZssaJfxQfV9kQGZ5shOr.jpg"
+          },
+          "main_category_slug": "laptop-racunari",
+          "order": 2
+        },
+        {
+          "id": 131896,
+          "sku": "NOT1223A00000",
+          "name": "Apple MBP 13.3 SPG 8C CPU 8C GPU 8GB 256GBZEE myd82ze-a",
+          "slug": "apple-mbp-133-spg-8c-cpu-8c-gpu-8gb-256gbzee-myd82ze-a",
+          "price": 203410,
+          "web_price": 203410,
+          "retail_price": 238620,
+          "dealer_price": 213190,
+          "authenticated_price": 203410,
+          "main_image": {
+            "id": 20647,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/laptop-racunari-tiny-dEuPAVvdYhxLNu1wgKKrQKp1JHTklytpbbAXSEaK.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/laptop-racunari-small-dEuPAVvdYhxLNu1wgKKrQKp1JHTklytpbbAXSEaK.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/laptop-racunari-medium-dEuPAVvdYhxLNu1wgKKrQKp1JHTklytpbbAXSEaK.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/laptop-racunari-large-dEuPAVvdYhxLNu1wgKKrQKp1JHTklytpbbAXSEaK.jpg"
+          },
+          "main_category_slug": "laptop-racunari",
+          "order": 3
+        },
+        {
+          "id": 271520,
+          "sku": "NOT2255A00000",
+          "name": "Laptop Asus X515EA-EJ311C 15.6\" FHD i3-1115G4 8GB M.2 256GB Grey",
+          "slug": "laptop-asus-x515ea-ej311c-156-fhd-i3-1115g4-8gb-m2-256gb-grey",
+          "price": 44080,
+          "web_price": 44080,
+          "retail_price": 51220,
+          "dealer_price": 45766.61,
+          "authenticated_price": 44080,
+          "main_image": {
+            "id": 69682,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/laptopovi-tiny-I1hCGF2n8CWX23kJP5Xjax6sivRWpXgHx96uGL2I.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/laptopovi-small-I1hCGF2n8CWX23kJP5Xjax6sivRWpXgHx96uGL2I.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/laptopovi-medium-I1hCGF2n8CWX23kJP5Xjax6sivRWpXgHx96uGL2I.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/laptopovi-large-I1hCGF2n8CWX23kJP5Xjax6sivRWpXgHx96uGL2I.jpg"
+          },
+          "main_category_slug": "laptop-racunari",
+          "order": 4
+        },
+        {
+          "id": 304324,
+          "sku": "NOT005918A00000",
+          "name": "Laptop Extensa EX215-22-R3U7 15.6 \" - 1920 x 1080 (Full HD), Ryzen 3 3250U, DDR4 8 GB, SSD 256 GB",
+          "slug": "laptop-extensa-ex215-22-r3u7-156-1920-x-1080-full-hd-ryzen-3-3250u-ddr4-8-gb-ssd-256-gb",
+          "price": 40340,
+          "web_price": 40340,
+          "retail_price": 46870,
+          "dealer_price": 41881.74,
+          "authenticated_price": 40340,
+          "main_image": {
+            "id": 103383,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/extensa-ex215-156-fhd-ryzen-3-3250u-8gb-256gb-ssd-crni-tiny-20221226110833000000",
+            "small": "https://api.jakov.rs/storage/images/products/extensa-ex215-156-fhd-ryzen-3-3250u-8gb-256gb-ssd-crni-small-20221226110833000000",
+            "medium": "https://api.jakov.rs/storage/images/products/extensa-ex215-156-fhd-ryzen-3-3250u-8gb-256gb-ssd-crni-medium-20221226110834000000",
+            "large": "https://api.jakov.rs/storage/images/products/extensa-ex215-156-fhd-ryzen-3-3250u-8gb-256gb-ssd-crni-large-20221226110835000000"
+          },
+          "main_category_slug": "laptop-racunari",
+          "order": 5
+        },
+        {
+          "id": 132926,
+          "sku": "NOT1335A00000",
+          "name": "Laptop LENOVO IdeaPad 3 15ITL6 DOS 15.6\" IPS Pentium 7505 4GB 256GB SSD IntelUHD SRB siva 82H8007MYA",
+          "slug": "laptop-lenovo-ideapad-3-15itl6-dos-156-ips-pentium-7505-4gb-256gb-ssd-inteluhd-srb-siva-82h8007mya",
+          "price": 41980,
+          "web_price": 41980,
+          "retail_price": 48770,
+          "dealer_price": 43579.94,
+          "authenticated_price": 41560.2,
+          "main_image": {
+            "id": 13098,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-TPQnzxjaQJKskeZPoDv0XVWXkrbl7qnQJYLR2XmC.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-TPQnzxjaQJKskeZPoDv0XVWXkrbl7qnQJYLR2XmC.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-TPQnzxjaQJKskeZPoDv0XVWXkrbl7qnQJYLR2XmC.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-TPQnzxjaQJKskeZPoDv0XVWXkrbl7qnQJYLR2XmC.jpg"
+          },
+          "main_category_slug": "laptop-racunari",
+          "order": 6
+        },
+        {
+          "id": 304329,
+          "sku": "NOT005923A00000",
+          "name": "Laptop G5 ME 15.6\" FHD 144Hz i5-12500H 16GB 512GB SSD GeForce RTX 3050 TI 4GB Backlit crni",
+          "slug": "laptop-g5-me-156-fhd-144hz-i5-12500h-16gb-512gb-ssd-geforce-rtx-3050-ti-4gb-backlit-crni",
+          "price": 134260,
+          "web_price": 134260,
+          "retail_price": 159030,
+          "dealer_price": 142085.44,
+          "authenticated_price": 134260,
+          "main_image": {
+            "id": 103408,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/g5-me-156-fhd-144hz-i5-12500h-16gb-512gb-ssd-geforce-rtx-3050-ti-4gb-backlit-crni-tiny-20221226110933000000",
+            "small": "https://api.jakov.rs/storage/images/products/g5-me-156-fhd-144hz-i5-12500h-16gb-512gb-ssd-geforce-rtx-3050-ti-4gb-backlit-crni-small-20221226110934000000",
+            "medium": "https://api.jakov.rs/storage/images/products/g5-me-156-fhd-144hz-i5-12500h-16gb-512gb-ssd-geforce-rtx-3050-ti-4gb-backlit-crni-medium-20221226110934000000",
+            "large": "https://api.jakov.rs/storage/images/products/g5-me-156-fhd-144hz-i5-12500h-16gb-512gb-ssd-geforce-rtx-3050-ti-4gb-backlit-crni-large-20221226110935000000"
+          },
+          "main_category_slug": "laptop-racunari",
+          "order": 7
+        },
+        {
+          "id": 341433,
+          "sku": "NOT003771A00000",
+          "name": "Laptop Lenovo V15-IIL i5-1035G1/16GB/SSD 512GB/15.6\" FHD/82C5S02R008GB512",
+          "slug": "laptop-lenovo-v15-iil-i5-1035g116gbssd-512gb156-fhd82c5s02r008gb512",
+          "price": 62990,
+          "web_price": 60480,
+          "retail_price": 70270,
+          "dealer_price": 62784,
+          "authenticated_price": 60480,
+          "discount": {
+            "id": 16927,
+            "type": null,
+            "price": 62990,
+            "from": "2023-02-07",
+            "to": "2023-02-20",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 140409,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/laptop-racunari-tiny-XPnllKmrJY4yW85i1FJCEbnBWuqR0f1GMoXo9gWQ.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/laptop-racunari-small-XPnllKmrJY4yW85i1FJCEbnBWuqR0f1GMoXo9gWQ.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/laptop-racunari-medium-XPnllKmrJY4yW85i1FJCEbnBWuqR0f1GMoXo9gWQ.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/laptop-racunari-large-XPnllKmrJY4yW85i1FJCEbnBWuqR0f1GMoXo9gWQ.jpg"
+          },
+          "main_category_slug": "laptop-racunari",
+          "order": 8
+        },
+        {
+          "id": 342140,
+          "sku": "NOT003783A00000",
+          "name": "HP Pav x360 Con 14-dy1002nm I7-1195G7 16GB512 W11h,58T97EA",
+          "slug": "hp-pav-x360-con-14-dy1002nm-i7-1195g7-16gb512-w11h58t97ea",
+          "price": 139240,
+          "web_price": 139240,
+          "retail_price": 164930,
+          "dealer_price": 147357.13,
+          "authenticated_price": 139240,
+          "main_image": {
+            "id": 140958,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/hp-pav-x360-con-14-dy1002nm-i7-1195g7-16gb512-w11h58t97ea-tiny-20230207013341000000",
+            "small": "https://api.jakov.rs/storage/images/products/hp-pav-x360-con-14-dy1002nm-i7-1195g7-16gb512-w11h58t97ea-small-20230207013341000000",
+            "medium": "https://api.jakov.rs/storage/images/products/hp-pav-x360-con-14-dy1002nm-i7-1195g7-16gb512-w11h58t97ea-medium-20230207013341000000",
+            "large": "https://api.jakov.rs/storage/images/products/hp-pav-x360-con-14-dy1002nm-i7-1195g7-16gb512-w11h58t97ea-large-20230207013341000000"
+          },
+          "main_category_slug": "laptop-racunari",
+          "order": 9
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Bela tehnika",
+      "order": 5,
+      "categories": [
+        {
+          "id": 270,
+          "name": "Frižideri",
+          "slug": "frizideri",
+          "order": 1,
+          "image": null
+        },
+        {
+          "id": 71,
+          "name": "Veš mašine",
+          "slug": "ves-masine",
+          "order": 2,
+          "image": null
+        },
+        {
+          "id": 300,
+          "name": "Mašina za pranje veša",
+          "slug": "masina-za-pranje-vesa",
+          "order": 3,
+          "image": null
+        }
+      ],
+      "products": [
+        {
+          "id": 128731,
+          "sku": "BLT2617A00000",
+          "name": "Samostojeća kompaktna mašina za pranje sudova BOSCH SKS62E32EU",
+          "slug": "samostojeca-kompaktna-masina-za-pranje-sudova-bosch-sks62e32eu",
+          "price": 50530,
+          "web_price": 50530,
+          "retail_price": 59890,
+          "dealer_price": 52400,
+          "authenticated_price": 50530,
+          "main_image": {
+            "id": 11545,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-yutUDJxoGKxx4FiphKLoOkZwW5jzgy96SuedLPho.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-yutUDJxoGKxx4FiphKLoOkZwW5jzgy96SuedLPho.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-yutUDJxoGKxx4FiphKLoOkZwW5jzgy96SuedLPho.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-yutUDJxoGKxx4FiphKLoOkZwW5jzgy96SuedLPho.jpg"
+          },
+          "main_category_slug": "samostalna-masina-za-pranje-sudova",
+          "order": 2
+        },
+        {
+          "id": 68491,
+          "sku": "HA9957A00000",
+          "name": "Štednjak elektro mini Milan Blagojević MBS Stoni Beli",
+          "slug": "stednjak-elektro-mini-milan-blagojevic-mbs-stoni-beli",
+          "price": 20930,
+          "web_price": 20930,
+          "retail_price": 23130,
+          "dealer_price": 20380.24,
+          "authenticated_price": 20930,
+          "main_image": {
+            "id": 53037,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/sporeti-tiny-OkANt3uiRMiQb4INE1vCTJLZ3TDcUIvysU2VGw9K.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/sporeti-small-OkANt3uiRMiQb4INE1vCTJLZ3TDcUIvysU2VGw9K.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/sporeti-medium-OkANt3uiRMiQb4INE1vCTJLZ3TDcUIvysU2VGw9K.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/sporeti-large-OkANt3uiRMiQb4INE1vCTJLZ3TDcUIvysU2VGw9K.jpg"
+          },
+          "main_category_slug": "mini-sporet",
+          "order": 3
+        },
+        {
+          "id": 128408,
+          "sku": "SPO0706A00000",
+          "name": "Ugradna staklokeramička ploča Gorenje ECT 643 SYW",
+          "slug": "ugradna-staklokeramicka-ploca-gorenje-ect-643-syw",
+          "price": 36300,
+          "web_price": 36300,
+          "retail_price": 40120,
+          "dealer_price": 35670.84,
+          "authenticated_price": 36300,
+          "main_image": {
+            "id": 7743,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-EoErbd4Bl8FlMKofdjLUeDinBnBc4igEg3nwqCvs.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-EoErbd4Bl8FlMKofdjLUeDinBnBc4igEg3nwqCvs.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-EoErbd4Bl8FlMKofdjLUeDinBnBc4igEg3nwqCvs.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-EoErbd4Bl8FlMKofdjLUeDinBnBc4igEg3nwqCvs.jpg"
+          },
+          "main_category_slug": "ugradna-ploca",
+          "order": 4
+        },
+        {
+          "id": 174868,
+          "sku": "SPO0984A00000",
+          "name": "Ugradna rerna Gorenje BOS6747A01WG",
+          "slug": "ugradna-rerna-gorenje-bos6747a01wg",
+          "price": 46390,
+          "web_price": 46390,
+          "retail_price": 51280,
+          "dealer_price": 45583.01,
+          "authenticated_price": 46390,
+          "main_image": {
+            "id": 8083,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-HJ45daUJ0uXWWTkiLh4z2mkbUXYBliMGA2jwpbjk.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-HJ45daUJ0uXWWTkiLh4z2mkbUXYBliMGA2jwpbjk.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-HJ45daUJ0uXWWTkiLh4z2mkbUXYBliMGA2jwpbjk.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-HJ45daUJ0uXWWTkiLh4z2mkbUXYBliMGA2jwpbjk.jpg"
+          },
+          "main_category_slug": "ugradna-rerna",
+          "order": 5
+        },
+        {
+          "id": 136082,
+          "sku": "BLT3089A00000",
+          "name": "Frižider kombinovani DAVOLINE XM 4012",
+          "slug": "frizider-kombinovani-davoline-xm-4012",
+          "price": 38500,
+          "web_price": 38500,
+          "retail_price": 42560,
+          "dealer_price": 37833.6,
+          "authenticated_price": 38500,
+          "main_image": {
+            "id": 7543,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-n3eDfiLBhhXWCtEQxF69kzmBBu08R42VM1M4p9Sd.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-n3eDfiLBhhXWCtEQxF69kzmBBu08R42VM1M4p9Sd.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-n3eDfiLBhhXWCtEQxF69kzmBBu08R42VM1M4p9Sd.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-n3eDfiLBhhXWCtEQxF69kzmBBu08R42VM1M4p9Sd.jpg"
+          },
+          "main_category_slug": "frizideri",
+          "order": 9
+        },
+        {
+          "id": 319509,
+          "sku": "BLT006012A00000",
+          "name": "Samostojeca mašina Bosch SRS4HMI61E za pranje sudova 45 cm Silver",
+          "slug": "samostojeca-masina-bosch-srs4hmi61e-za-pranje-sudova-45-cm-silver",
+          "price": 65500,
+          "web_price": 65500,
+          "retail_price": 79100,
+          "dealer_price": 69217.08,
+          "authenticated_price": 65500,
+          "main_image": {
+            "id": 130506,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/samostalna-masina-za-pranje-sudova-tiny-oLXGvZhkec9J7kYcEJQjVfVMK8VxHIU28vgz0Hbz.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/samostalna-masina-za-pranje-sudova-small-oLXGvZhkec9J7kYcEJQjVfVMK8VxHIU28vgz0Hbz.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/samostalna-masina-za-pranje-sudova-medium-oLXGvZhkec9J7kYcEJQjVfVMK8VxHIU28vgz0Hbz.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/samostalna-masina-za-pranje-sudova-large-oLXGvZhkec9J7kYcEJQjVfVMK8VxHIU28vgz0Hbz.jpg"
+          },
+          "main_category_slug": "samostalna-masina-za-pranje-sudova",
+          "order": 11
+        },
+        {
+          "id": 113607,
+          "sku": "BLT1906A00000",
+          "name": "Frižider Gorenje NRM 8181 MX Side by Side NoFrost 467 litara LED",
+          "slug": "frizider-gorenje-nrm-8181-mx-side-by-side-nofrost-467-litara-led",
+          "price": 104070,
+          "web_price": 104070,
+          "retail_price": 115030,
+          "dealer_price": 102251.13,
+          "authenticated_price": 104070,
+          "main_image": {
+            "id": 779,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-FpxT8skYVMqW8nsc9mAwJVG8NYvcDNJRizSKst54.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-FpxT8skYVMqW8nsc9mAwJVG8NYvcDNJRizSKst54.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-FpxT8skYVMqW8nsc9mAwJVG8NYvcDNJRizSKst54.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-FpxT8skYVMqW8nsc9mAwJVG8NYvcDNJRizSKst54.jpg"
+          },
+          "main_category_slug": "frizideri",
+          "order": 12
+        },
+        {
+          "id": 87712,
+          "sku": "BLT3129A00000",
+          "name": "Veš mašina Gorenje WNEI72B 7kg 1200 obrtaja inverter motor",
+          "slug": "ves-masina-gorenje-wnei72b-7kg-1200-obrtaja-inverter-motor",
+          "price": 41040,
+          "web_price": 41040,
+          "retail_price": 44640,
+          "dealer_price": 40326.72,
+          "authenticated_price": 41040,
+          "main_image": {
+            "id": 7681,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-2zIay18hsMy1rCzMSXqigGfG6D95Z2eXHQhhjoMX.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-2zIay18hsMy1rCzMSXqigGfG6D95Z2eXHQhhjoMX.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-2zIay18hsMy1rCzMSXqigGfG6D95Z2eXHQhhjoMX.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-2zIay18hsMy1rCzMSXqigGfG6D95Z2eXHQhhjoMX.jpg"
+          },
+          "main_category_slug": "masina-za-pranje-vesa",
+          "order": 13
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Mobilni telefoni",
+      "order": 4,
+      "categories": [
+        {
+          "id": 118,
+          "name": "Mobilni SMART telefoni",
+          "slug": "mobilni-smart-telefoni",
+          "order": 1,
+          "image": null
+        },
+        {
+          "id": 120,
+          "name": "Mobilni telefoni",
+          "slug": "mobilni-telefoni",
+          "order": 2,
+          "image": null
+        },
+        {
+          "id": 342,
+          "name": "Bluetooth zvučnici",
+          "slug": "bluetooth-zvucnici",
+          "order": 3,
+          "image": null
+        }
+      ],
+      "products": [
+        {
+          "id": 136206,
+          "sku": "MOB3281A00000",
+          "name": "Mobilni telefon Honor 50 6GB 128GB crna",
+          "slug": "mobilni-telefon-honor-50-6gb-128gb-crna",
+          "price": 50490,
+          "web_price": 50490,
+          "retail_price": 55800,
+          "dealer_price": 49163,
+          "authenticated_price": 49985.1,
+          "main_image": {
+            "id": 1642,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-KrQ0ORxR3HmXmUo0ZT98RZ2FNNBWrO4HBlZuoZ31.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-KrQ0ORxR3HmXmUo0ZT98RZ2FNNBWrO4HBlZuoZ31.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-KrQ0ORxR3HmXmUo0ZT98RZ2FNNBWrO4HBlZuoZ31.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-KrQ0ORxR3HmXmUo0ZT98RZ2FNNBWrO4HBlZuoZ31.jpg"
+          },
+          "main_category_slug": "mobilni-smart-telefoni",
+          "order": 2
+        },
+        {
+          "id": 273966,
+          "sku": "MOB003920A00000",
+          "name": "Mobilni telefon Alcatel 2053D - crna",
+          "slug": "mobilni-telefon-alcatel-2053d-crna",
+          "price": 4710,
+          "web_price": 4710,
+          "retail_price": 5550,
+          "dealer_price": 4761.6,
+          "authenticated_price": 4710,
+          "main_image": {
+            "id": 72160,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/alcatel-2053d-crna-tiny-20221207085426000000",
+            "small": "https://api.jakov.rs/storage/images/products/alcatel-2053d-crna-small-20221207085426000000",
+            "medium": "https://api.jakov.rs/storage/images/products/alcatel-2053d-crna-medium-20221207085426000000",
+            "large": "https://api.jakov.rs/storage/images/products/alcatel-2053d-crna-large-20221207085426000000"
+          },
+          "main_category_slug": "mobilni-telefoni",
+          "order": 7
+        },
+        {
+          "id": 307593,
+          "sku": "MOB003734A00000",
+          "name": "Mobilni telefon Samsung Galaxy A32 - 6.4\", 4/128 GB, 64+8+5+5 Mpix, DS, Plava",
+          "slug": "mobilni-telefon-samsung-galaxy-a32-64-4128-gb-64855-mpix-ds-plava",
+          "price": 32160,
+          "web_price": 32160,
+          "retail_price": 37170,
+          "dealer_price": 32753.56,
+          "authenticated_price": 32160,
+          "main_image": {
+            "id": 121760,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/mobilni-smart-telefoni-tiny-6OZrb3CiH2N7GKGGEoIdgFtSFF6ud8IgMGqAY8qW.png",
+            "small": "https://api.jakov.rs/storage/images/products/mobilni-smart-telefoni-small-6OZrb3CiH2N7GKGGEoIdgFtSFF6ud8IgMGqAY8qW.png",
+            "medium": "https://api.jakov.rs/storage/images/products/mobilni-smart-telefoni-medium-6OZrb3CiH2N7GKGGEoIdgFtSFF6ud8IgMGqAY8qW.png",
+            "large": "https://api.jakov.rs/storage/images/products/mobilni-smart-telefoni-large-6OZrb3CiH2N7GKGGEoIdgFtSFF6ud8IgMGqAY8qW.png"
+          },
+          "main_category_slug": "mobilni-smart-telefoni",
+          "order": 8
+        },
+        {
+          "id": 294831,
+          "sku": "MOB005178A00000",
+          "name": "Xiaomi 12 T 8GB/128GB crna",
+          "slug": "xiaomi-12-t-8gb128gb-crna",
+          "price": 69170,
+          "web_price": 69170,
+          "retail_price": 83000,
+          "dealer_price": 73126.8,
+          "authenticated_price": 69170,
+          "main_image": {
+            "id": 93229,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/xiaomi-12-t-8gb128gb-crna-tiny-20221219075052000000",
+            "small": "https://api.jakov.rs/storage/images/products/xiaomi-12-t-8gb128gb-crna-small-20221219075052000000",
+            "medium": "https://api.jakov.rs/storage/images/products/xiaomi-12-t-8gb128gb-crna-medium-20221219075052000000",
+            "large": "https://api.jakov.rs/storage/images/products/xiaomi-12-t-8gb128gb-crna-large-20221219075052000000"
+          },
+          "main_category_slug": "mobilni-smart-telefoni",
+          "order": 10
+        },
+        {
+          "id": 178145,
+          "sku": "MOB3470A00000",
+          "name": "Mobilni telefon Xiami POCO M4 PRO 5G Power black 6.6\" 4GB 64GB",
+          "slug": "mobilni-telefon-xiami-poco-m4-pro-5g-power-black-66-4gb-64gb",
+          "price": 28970,
+          "web_price": 28970,
+          "retail_price": 33800,
+          "dealer_price": 29783.09,
+          "authenticated_price": 28680.3,
+          "main_image": {
+            "id": 18406,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-0HUHDJFzj5GBmCayjEsYG56gVjI10GO2RmxglvpI.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-0HUHDJFzj5GBmCayjEsYG56gVjI10GO2RmxglvpI.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-0HUHDJFzj5GBmCayjEsYG56gVjI10GO2RmxglvpI.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-0HUHDJFzj5GBmCayjEsYG56gVjI10GO2RmxglvpI.jpg"
+          },
+          "main_category_slug": "mobilni-smart-telefoni",
+          "order": 13
+        },
+        {
+          "id": 320423,
+          "sku": "MOB003747A00000",
+          "name": "Mobilni telefon Realme 9 Pro - 6/128 GB, crni",
+          "slug": "mobilni-telefon-realme-9-pro-6128-gb-crni",
+          "price": 30780,
+          "web_price": 30780,
+          "retail_price": 34020,
+          "dealer_price": 29970,
+          "authenticated_price": 30780,
+          "main_image": {
+            "id": 120198,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/realme-9-pro-6gb128gb-crna-tiny-20230104043055000000",
+            "small": "https://api.jakov.rs/storage/images/products/realme-9-pro-6gb128gb-crna-small-20230104043055000000",
+            "medium": "https://api.jakov.rs/storage/images/products/realme-9-pro-6gb128gb-crna-medium-20230104043055000000",
+            "large": "https://api.jakov.rs/storage/images/products/realme-9-pro-6gb128gb-crna-large-20230104043056000000"
+          },
+          "main_category_slug": "mobilni-smart-telefoni",
+          "order": 14
+        },
+        {
+          "id": 274112,
+          "sku": "MOB003993A00000",
+          "name": "Mobilni telefon Xiaomi Redmi Note 11 4GB/128GB svetlo plava",
+          "slug": "mobilni-telefon-xiaomi-redmi-note-11-4gb128gb-svetlo-plava",
+          "price": 25890,
+          "web_price": 25890,
+          "retail_price": 29930,
+          "dealer_price": 26373.6,
+          "authenticated_price": 25890,
+          "main_image": {
+            "id": 72709,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/xiaomi-redmi-note-11-4gb128gb-svetlo-plava-tiny-20221207090315000000",
+            "small": "https://api.jakov.rs/storage/images/products/xiaomi-redmi-note-11-4gb128gb-svetlo-plava-small-20221207090315000000",
+            "medium": "https://api.jakov.rs/storage/images/products/xiaomi-redmi-note-11-4gb128gb-svetlo-plava-medium-20221207090315000000",
+            "large": "https://api.jakov.rs/storage/images/products/xiaomi-redmi-note-11-4gb128gb-svetlo-plava-large-20221207090315000000"
+          },
+          "main_category_slug": "mobilni-smart-telefoni",
+          "order": 15
+        },
+        {
+          "id": 328186,
+          "sku": "MOB008275A00000",
+          "name": "Smartphone SAMSUNG Galaxy A04s 3GB/32GB/crna",
+          "slug": "smartphone-samsung-galaxy-a04s-3gb32gbcrna",
+          "price": 17680,
+          "web_price": 17680,
+          "retail_price": 20260,
+          "dealer_price": 17848.8,
+          "authenticated_price": 17680,
+          "main_image": {
+            "id": 124829,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/smartphone-samsung-galaxy-a04s-3gb32gbcrna-tiny-20230117134456000000",
+            "small": "https://api.jakov.rs/storage/images/products/smartphone-samsung-galaxy-a04s-3gb32gbcrna-small-20230117134456000000",
+            "medium": "https://api.jakov.rs/storage/images/products/smartphone-samsung-galaxy-a04s-3gb32gbcrna-medium-20230117134457000000",
+            "large": "https://api.jakov.rs/storage/images/products/smartphone-samsung-galaxy-a04s-3gb32gbcrna-large-20230117134457000000"
+          },
+          "main_category_slug": "mobilni-smart-telefoni",
+          "order": 16
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Mali kućni aparati",
+      "order": 3,
+      "categories": [
+        {
+          "id": 80,
+          "name": "Usisivači i oprema",
+          "slug": "usisivaci-i-oprema",
+          "order": 1,
+          "image": null
+        },
+        {
+          "id": 311,
+          "name": "Mikseri",
+          "slug": "mikseri",
+          "order": 2,
+          "image": null
+        },
+        {
+          "id": 77,
+          "name": "Aparati za ličnu higijenu",
+          "slug": "aparati-za-licnu-higijenu",
+          "order": 3,
+          "image": null
+        }
+      ],
+      "products": [
+        {
+          "id": 180196,
+          "sku": "MKA5282A00000",
+          "name": "Rucni mikser sa rotirajucom posudom ECG RSM4052",
+          "slug": "rucni-mikser-sa-rotirajucom-posudom-ecg-rsm4052",
+          "price": 4520,
+          "web_price": 4520,
+          "retail_price": 5130,
+          "dealer_price": 4445.87,
+          "authenticated_price": 4520,
+          "main_image": {
+            "id": 16289,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-gkFI9YyuvINAUqX6BQMeXnfbWTSs018RI18LvUIC.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-gkFI9YyuvINAUqX6BQMeXnfbWTSs018RI18LvUIC.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-gkFI9YyuvINAUqX6BQMeXnfbWTSs018RI18LvUIC.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-gkFI9YyuvINAUqX6BQMeXnfbWTSs018RI18LvUIC.jpg"
+          },
+          "main_category_slug": "mikseri",
+          "order": 3
+        },
+        {
+          "id": 83541,
+          "sku": "MKA1216A00000",
+          "name": "Mikser štapni ECG RM 990",
+          "slug": "mikser-stapni-ecg-rm-990",
+          "price": 1850,
+          "web_price": 1850,
+          "retail_price": 1950,
+          "dealer_price": 1696.78,
+          "authenticated_price": 1850,
+          "main_image": {
+            "id": 53016,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/mikseri-tiny-MLXCPJbdo2oND1XcuRw7rTXRL04rfI5aI0LuYoby.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/mikseri-small-MLXCPJbdo2oND1XcuRw7rTXRL04rfI5aI0LuYoby.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/mikseri-medium-MLXCPJbdo2oND1XcuRw7rTXRL04rfI5aI0LuYoby.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/mikseri-large-MLXCPJbdo2oND1XcuRw7rTXRL04rfI5aI0LuYoby.jpg"
+          },
+          "main_category_slug": "mikseri",
+          "order": 8
+        },
+        {
+          "id": 128966,
+          "sku": "MKA3959A00000",
+          "name": "Roštilj Gorenje KR1800EPRO",
+          "slug": "rostilj-gorenje-kr1800epro",
+          "price": 11510,
+          "web_price": 11510,
+          "retail_price": 14680,
+          "dealer_price": 11617.32,
+          "authenticated_price": 11510,
+          "main_image": {
+            "id": 19311,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-GvxdxS0okQuRmmwqjV82KUyj8mPY0p0sAQ3CqlPt.png",
+            "small": "https://api.jakov.rs/storage/images/products/small-GvxdxS0okQuRmmwqjV82KUyj8mPY0p0sAQ3CqlPt.png",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-GvxdxS0okQuRmmwqjV82KUyj8mPY0p0sAQ3CqlPt.png",
+            "large": "https://api.jakov.rs/storage/images/products/large-GvxdxS0okQuRmmwqjV82KUyj8mPY0p0sAQ3CqlPt.png"
+          },
+          "main_category_slug": "elektricni-rostilji-i-grilovi",
+          "order": 9
+        },
+        {
+          "id": 87700,
+          "sku": "MKA4444A00000",
+          "name": "Mikser Hobby HSM 1000",
+          "slug": "mikser-hobby-hsm-1000",
+          "price": 10420,
+          "web_price": 10420,
+          "retail_price": 12040,
+          "dealer_price": 10420,
+          "authenticated_price": 10420,
+          "main_image": {
+            "id": 9790,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-dEGEMjpLqkei6cJmrQYZ60S5u49iKjbrQ86KbtId.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-dEGEMjpLqkei6cJmrQYZ60S5u49iKjbrQ86KbtId.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-dEGEMjpLqkei6cJmrQYZ60S5u49iKjbrQ86KbtId.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-dEGEMjpLqkei6cJmrQYZ60S5u49iKjbrQ86KbtId.jpg"
+          },
+          "main_category_slug": "mikseri",
+          "order": 12
+        },
+        {
+          "id": 336049,
+          "sku": "BLT027880A00000",
+          "name": "PHILIPS lumea IPL BRI945/00",
+          "slug": "philips-lumea-ipl-bri94500",
+          "price": 46310,
+          "web_price": 46310,
+          "retail_price": 58430,
+          "dealer_price": 47613.98,
+          "authenticated_price": 46310,
+          "main_image": {
+            "id": 133493,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/philips-lumea-ipl-bri94500-tiny-20230125140834000000",
+            "small": "https://api.jakov.rs/storage/images/products/philips-lumea-ipl-bri94500-small-20230125140834000000",
+            "medium": "https://api.jakov.rs/storage/images/products/philips-lumea-ipl-bri94500-medium-20230125140834000000",
+            "large": "https://api.jakov.rs/storage/images/products/philips-lumea-ipl-bri94500-large-20230125140834000000"
+          },
+          "main_category_slug": "epilatori-i-depilatori",
+          "order": 14
+        },
+        {
+          "id": 60518,
+          "sku": "BLT3203A00000",
+          "name": "Usisivač Rowenta RH9690 Stick",
+          "slug": "usisivac-rowenta-rh9690-stick",
+          "price": 42220,
+          "web_price": 42220,
+          "retail_price": 50820,
+          "dealer_price": 43787.52,
+          "authenticated_price": 42220,
+          "main_image": {
+            "id": 9728,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-99hLJeZXzeYnHJmmbRifxVffjHEPZcICFRUFoXic.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-99hLJeZXzeYnHJmmbRifxVffjHEPZcICFRUFoXic.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-99hLJeZXzeYnHJmmbRifxVffjHEPZcICFRUFoXic.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-99hLJeZXzeYnHJmmbRifxVffjHEPZcICFRUFoXic.jpg"
+          },
+          "main_category_slug": "usisivaci",
+          "order": 15
+        },
+        {
+          "id": 180215,
+          "sku": "BLT3895A00000",
+          "name": "Usisivač ROWENTA RO4881",
+          "slug": "usisivac-rowenta-ro4881",
+          "price": 17050,
+          "web_price": 17050,
+          "retail_price": 20340,
+          "dealer_price": 17525.75,
+          "authenticated_price": 17050,
+          "main_image": {
+            "id": 14201,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-3iINOgAnSurYQ01eW8uVf4uBFnLq3jjPlRxan1ia.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-3iINOgAnSurYQ01eW8uVf4uBFnLq3jjPlRxan1ia.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-3iINOgAnSurYQ01eW8uVf4uBFnLq3jjPlRxan1ia.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-3iINOgAnSurYQ01eW8uVf4uBFnLq3jjPlRxan1ia.jpg"
+          },
+          "main_category_slug": "usisivaci",
+          "order": 16
+        },
+        {
+          "id": 116020,
+          "sku": "MKA3218A00000",
+          "name": "Krups KP1A01 Dolce Gusto Piccolo XS beli",
+          "slug": "krups-kp1a01-dolce-gusto-piccolo-xs-beli",
+          "price": 8890,
+          "web_price": 9560,
+          "retail_price": 11740,
+          "dealer_price": 9569.79,
+          "authenticated_price": 9560,
+          "discount": {
+            "id": 16683,
+            "type": null,
+            "price": 8890,
+            "from": "2023-02-07",
+            "to": "2023-02-14",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 16242,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-DXtLaHpxpwR0bihqTUu0fKC1ORA7246QarZuYCjK.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-DXtLaHpxpwR0bihqTUu0fKC1ORA7246QarZuYCjK.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-DXtLaHpxpwR0bihqTUu0fKC1ORA7246QarZuYCjK.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-DXtLaHpxpwR0bihqTUu0fKC1ORA7246QarZuYCjK.jpg"
+          },
+          "main_category_slug": "aparati-za-kafu",
+          "order": 17
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Alati i oprema",
+      "order": 6,
+      "categories": [
+        {
+          "id": 452,
+          "name": "Akumulatorske bušilice",
+          "slug": "akumulatorske-busilice",
+          "order": 1,
+          "image": null
+        },
+        {
+          "id": 461,
+          "name": "Električne brusilice",
+          "slug": "elektricne-brusilice",
+          "order": 2,
+          "image": null
+        },
+        {
+          "id": 462,
+          "name": "Električne testere i cirkulari",
+          "slug": "elektricne-testere-i-cirkulari",
+          "order": 3,
+          "image": null
+        }
+      ],
+      "products": [
+        {
+          "id": 134334,
+          "sku": "TUL7600A00000",
+          "name": "Lančana testera Womax W KS 2400 - električna, 78420340",
+          "slug": "lancana-testera-womax-w-ks-2400-elektricna-78420340",
+          "price": 9990,
+          "web_price": 11090,
+          "retail_price": 12280,
+          "dealer_price": 10602.76,
+          "authenticated_price": 11090,
+          "discount": {
+            "id": 16684,
+            "type": null,
+            "price": 9990,
+            "from": "2023-02-07",
+            "to": "2023-02-28",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 91856,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/elektricne-testere-i-cirkulari-tiny-KL8iHmfxlk149u8KJjo8VJi5bo6rNOoTapFqffXo.png",
+            "small": "https://api.jakov.rs/storage/images/products/elektricne-testere-i-cirkulari-small-KL8iHmfxlk149u8KJjo8VJi5bo6rNOoTapFqffXo.png",
+            "medium": "https://api.jakov.rs/storage/images/products/elektricne-testere-i-cirkulari-medium-KL8iHmfxlk149u8KJjo8VJi5bo6rNOoTapFqffXo.png",
+            "large": "https://api.jakov.rs/storage/images/products/elektricne-testere-i-cirkulari-large-KL8iHmfxlk149u8KJjo8VJi5bo6rNOoTapFqffXo.png"
+          },
+          "main_category_slug": "elektricne-testere-i-cirkulari",
+          "order": 1
+        },
+        {
+          "id": 178259,
+          "sku": "TUL8805A00000",
+          "name": "Vibraciona brusilica Fieldmann FDB 200221-E - 3u1, šlajferica",
+          "slug": "vibraciona-brusilica-fieldmann-fdb-200221-e-3u1-slajferica",
+          "price": 5690,
+          "web_price": 6280,
+          "retail_price": 7070,
+          "dealer_price": 6009.12,
+          "authenticated_price": 6280,
+          "discount": {
+            "id": 16685,
+            "type": null,
+            "price": 5690,
+            "from": "2023-02-07",
+            "to": "2023-03-01",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 91858,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/elektricne-brusilice-tiny-IkizEX18kIfdIAF4gmMs9qW4HVczK7YjVOIvCBrv.png",
+            "small": "https://api.jakov.rs/storage/images/products/elektricne-brusilice-small-IkizEX18kIfdIAF4gmMs9qW4HVczK7YjVOIvCBrv.png",
+            "medium": "https://api.jakov.rs/storage/images/products/elektricne-brusilice-medium-IkizEX18kIfdIAF4gmMs9qW4HVczK7YjVOIvCBrv.png",
+            "large": "https://api.jakov.rs/storage/images/products/elektricne-brusilice-large-IkizEX18kIfdIAF4gmMs9qW4HVczK7YjVOIvCBrv.png"
+          },
+          "main_category_slug": "elektricne-brusilice",
+          "order": 3
+        },
+        {
+          "id": 101779,
+          "sku": "TUL4954A00000",
+          "name": "Set nareznica Extol Premium - 9 komada, 8816511",
+          "slug": "set-nareznica-extol-premium-9-komada-8816511",
+          "price": 1190,
+          "web_price": 1710,
+          "retail_price": 1490,
+          "dealer_price": 1265.92,
+          "authenticated_price": 1710,
+          "discount": {
+            "id": 16686,
+            "type": null,
+            "price": 1190,
+            "from": "2023-02-07",
+            "to": "2023-03-01",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 91859,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/ureznice-i-nareznice-tiny-h2ryhxfGHgaBBQ3Oqtn2lV3pwd8nqntLfQlTCWGW.png",
+            "small": "https://api.jakov.rs/storage/images/products/ureznice-i-nareznice-small-h2ryhxfGHgaBBQ3Oqtn2lV3pwd8nqntLfQlTCWGW.png",
+            "medium": "https://api.jakov.rs/storage/images/products/ureznice-i-nareznice-medium-h2ryhxfGHgaBBQ3Oqtn2lV3pwd8nqntLfQlTCWGW.png",
+            "large": "https://api.jakov.rs/storage/images/products/ureznice-i-nareznice-large-h2ryhxfGHgaBBQ3Oqtn2lV3pwd8nqntLfQlTCWGW.png"
+          },
+          "main_category_slug": "ureznice-i-nareznice",
+          "order": 4
+        },
+        {
+          "id": 118691,
+          "sku": "TUL6350A00000",
+          "name": "Akumulatorski trimer za travu Villager BC 2320",
+          "slug": "akumulatorski-trimer-za-travu-villager-bc-2320",
+          "price": 4990,
+          "web_price": 5710,
+          "retail_price": 6240,
+          "dealer_price": 5281.16,
+          "authenticated_price": 5710,
+          "discount": {
+            "id": 16687,
+            "type": null,
+            "price": 4990,
+            "from": "2023-02-07",
+            "to": "2023-03-01",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 91860,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/kosilice-i-trimeri-tiny-AeFHkktDjZPykUK8JqRGJl1d5s1F2twKDBiyMqTR.png",
+            "small": "https://api.jakov.rs/storage/images/products/kosilice-i-trimeri-small-AeFHkktDjZPykUK8JqRGJl1d5s1F2twKDBiyMqTR.png",
+            "medium": "https://api.jakov.rs/storage/images/products/kosilice-i-trimeri-medium-AeFHkktDjZPykUK8JqRGJl1d5s1F2twKDBiyMqTR.png",
+            "large": "https://api.jakov.rs/storage/images/products/kosilice-i-trimeri-large-AeFHkktDjZPykUK8JqRGJl1d5s1F2twKDBiyMqTR.png"
+          },
+          "main_category_slug": "kosilice-i-trimeri",
+          "order": 5
+        },
+        {
+          "id": 111473,
+          "sku": "TUL5207A00000",
+          "name": "Stega Bravarska Lux  100mm Rotirajuća",
+          "slug": "stega-bravarska-lux-100mm-rotirajuca",
+          "price": 8990,
+          "web_price": 10170,
+          "retail_price": 11440,
+          "dealer_price": 9717.41,
+          "authenticated_price": 10170,
+          "discount": {
+            "id": 16688,
+            "type": null,
+            "price": 8990,
+            "from": "2023-02-07",
+            "to": "2023-03-01",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 20353,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/stege-testere-i-turpije-tiny-DpUrgAjjVvku3TIlV0KNfBMYaIYA7YPxKRZIvvZ8.png",
+            "small": "https://api.jakov.rs/storage/images/products/stege-testere-i-turpije-small-DpUrgAjjVvku3TIlV0KNfBMYaIYA7YPxKRZIvvZ8.png",
+            "medium": "https://api.jakov.rs/storage/images/products/stege-testere-i-turpije-medium-DpUrgAjjVvku3TIlV0KNfBMYaIYA7YPxKRZIvvZ8.png",
+            "large": "https://api.jakov.rs/storage/images/products/stege-testere-i-turpije-large-DpUrgAjjVvku3TIlV0KNfBMYaIYA7YPxKRZIvvZ8.png"
+          },
+          "main_category_slug": "stege-testere-i-turpije",
+          "order": 6
+        },
+        {
+          "id": 221042,
+          "sku": "TUL010586A00000",
+          "name": "Akumulatorska mini brusilica Iskra ML-MD03-120 - 12 V",
+          "slug": "akumulatorska-mini-brusilica-iskra-ml-md03-120-12-v",
+          "price": 4340,
+          "web_price": 4340,
+          "retail_price": 4880,
+          "dealer_price": 4147.19,
+          "authenticated_price": 4296.6,
+          "main_image": {
+            "id": 38884,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/iskra-akumulatorska-mini-brusilica-12v-ml-md03-120-tiny-20221116131206000000",
+            "small": "https://api.jakov.rs/storage/images/products/iskra-akumulatorska-mini-brusilica-12v-ml-md03-120-small-20221116131206000000",
+            "medium": "https://api.jakov.rs/storage/images/products/iskra-akumulatorska-mini-brusilica-12v-ml-md03-120-medium-20221116131206000000",
+            "large": "https://api.jakov.rs/storage/images/products/iskra-akumulatorska-mini-brusilica-12v-ml-md03-120-large-20221116131207000000"
+          },
+          "main_category_slug": "akumulatorske-brusilice",
+          "order": 7
+        },
+        {
+          "id": 175931,
+          "sku": "TUL8469A00000",
+          "name": "Punjač baterija Einhell CC-BC 15 1075031",
+          "slug": "punjac-baterija-einhell-cc-bc-15-1075031",
+          "price": 8760,
+          "web_price": 8760,
+          "retail_price": 8760,
+          "dealer_price": 6744.9,
+          "authenticated_price": 8760,
+          "main_image": {
+            "id": 17791,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-fBPE6fu6xH3paU1Vep81gvtymwBqCo6mwrfdjwDG.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-fBPE6fu6xH3paU1Vep81gvtymwBqCo6mwrfdjwDG.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-fBPE6fu6xH3paU1Vep81gvtymwBqCo6mwrfdjwDG.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-fBPE6fu6xH3paU1Vep81gvtymwBqCo6mwrfdjwDG.jpg"
+          },
+          "main_category_slug": "baterije-i-punjaci",
+          "order": 2
+        },
+        {
+          "id": 117738,
+          "sku": "TUL6136A00000",
+          "name": "Udarna bušilica Einhell TC-ID 1000 E 4259825",
+          "slug": "udarna-busilica-einhell-tc-id-1000-e-4259825",
+          "price": 4990,
+          "web_price": 5550,
+          "retail_price": 6360,
+          "dealer_price": 5405.54,
+          "authenticated_price": 5550,
+          "discount": {
+            "id": 16926,
+            "type": null,
+            "price": 4990,
+            "from": "2023-02-07",
+            "to": "2023-03-01",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 2973,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-4Qa7R2YLDtoJtek7bqheFWVQdnQAocPXCM0b5So3.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-4Qa7R2YLDtoJtek7bqheFWVQdnQAocPXCM0b5So3.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-4Qa7R2YLDtoJtek7bqheFWVQdnQAocPXCM0b5So3.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-4Qa7R2YLDtoJtek7bqheFWVQdnQAocPXCM0b5So3.jpg"
+          },
+          "main_category_slug": "elektricne-busilice",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Dečije igračke",
+      "order": 7,
+      "categories": [
+        {
+          "id": 114,
+          "name": "Dečije igračke i oprema",
+          "slug": "decije-igracke-i-oprema",
+          "order": 1,
+          "image": null
+        }
+      ],
+      "products": [
+        {
+          "id": 343861,
+          "sku": "BBO007801A00000",
+          "name": "Bebi stolica za ljuljanje Kinderkraft Flo Pink",
+          "slug": "bebi-stolica-za-ljuljanje-kinderkraft-flo-pink",
+          "price": 9790,
+          "web_price": 12340,
+          "retail_price": 13800,
+          "dealer_price": 11663.31,
+          "authenticated_price": 12340,
+          "discount": {
+            "id": 16931,
+            "type": null,
+            "price": 9790,
+            "from": "2023-02-09",
+            "to": "2023-02-28",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 143338,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/ljuljaske-lezaljke-i-nosiljke-tiny-5JBCvRK0duWBg0FcfJPAibqEkxuUd8Vn1H55CJmS.png",
+            "small": "https://api.jakov.rs/storage/images/products/ljuljaske-lezaljke-i-nosiljke-small-5JBCvRK0duWBg0FcfJPAibqEkxuUd8Vn1H55CJmS.png",
+            "medium": "https://api.jakov.rs/storage/images/products/ljuljaske-lezaljke-i-nosiljke-medium-5JBCvRK0duWBg0FcfJPAibqEkxuUd8Vn1H55CJmS.png",
+            "large": "https://api.jakov.rs/storage/images/products/ljuljaske-lezaljke-i-nosiljke-large-5JBCvRK0duWBg0FcfJPAibqEkxuUd8Vn1H55CJmS.png"
+          },
+          "main_category_slug": "ljuljaske-lezaljke-i-nosiljke",
+          "order": 1
+        },
+        {
+          "id": 264273,
+          "sku": "IGR010091A00000",
+          "name": "INTEX BAZEN AKVARIJUM, 152X56CM",
+          "slug": "intex-bazen-akvarijum-152x56cm",
+          "price": 3890,
+          "web_price": 4480,
+          "retail_price": 5240,
+          "dealer_price": 4333.82,
+          "authenticated_price": 4480,
+          "discount": {
+            "id": 16933,
+            "type": null,
+            "price": 3890,
+            "from": "2023-02-09",
+            "to": "2023-02-28",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 61975,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/intex-bazen-akvarijum-152x56cm-tiny-20221130143524000000",
+            "small": "https://api.jakov.rs/storage/images/products/intex-bazen-akvarijum-152x56cm-small-20221130143524000000",
+            "medium": "https://api.jakov.rs/storage/images/products/intex-bazen-akvarijum-152x56cm-medium-20221130143524000000",
+            "large": "https://api.jakov.rs/storage/images/products/intex-bazen-akvarijum-152x56cm-large-20221130143525000000"
+          },
+          "main_category_slug": "igracke-za-dvoriste",
+          "order": 2
+        },
+        {
+          "id": 264406,
+          "sku": "IGR010112A00000",
+          "name": "VET SQUAD IGRAČKA SPASAVANJE - OKEAN,ŠUMA I GREBEN",
+          "slug": "vet-squad-igracka-spasavanje-okeansuma-i-greben",
+          "price": 2690,
+          "web_price": 2690,
+          "retail_price": 3140,
+          "dealer_price": 2583.36,
+          "authenticated_price": 2690,
+          "main_image": {
+            "id": 62109,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/vet-squad-igracka-spasavanje-okeansuma-i-greben-tiny-20221130143816000000",
+            "small": "https://api.jakov.rs/storage/images/products/vet-squad-igracka-spasavanje-okeansuma-i-greben-small-20221130143816000000",
+            "medium": "https://api.jakov.rs/storage/images/products/vet-squad-igracka-spasavanje-okeansuma-i-greben-medium-20221130143817000000",
+            "large": "https://api.jakov.rs/storage/images/products/vet-squad-igracka-spasavanje-okeansuma-i-greben-large-20221130143817000000"
+          },
+          "main_category_slug": "zabavne-igracke",
+          "order": 3
+        },
+        {
+          "id": 178883,
+          "sku": "BAZ0082A00000",
+          "name": "Bazen Bestway 2.44 x 61 cm",
+          "slug": "bazen-bestway-244-x-61-cm",
+          "price": 3990,
+          "web_price": 4990,
+          "retail_price": 5470,
+          "dealer_price": 4596.95,
+          "authenticated_price": 4990,
+          "discount": {
+            "id": 15279,
+            "type": null,
+            "price": 3990,
+            "from": "2023-01-10",
+            "to": "2023-03-01",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 122110,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/bazeni-i-oprema-tiny-i95RjGisrQKEu8mJYmT1I5iUW0bEQhK7zGwuFc9X.png",
+            "small": "https://api.jakov.rs/storage/images/products/bazeni-i-oprema-small-i95RjGisrQKEu8mJYmT1I5iUW0bEQhK7zGwuFc9X.png",
+            "medium": "https://api.jakov.rs/storage/images/products/bazeni-i-oprema-medium-i95RjGisrQKEu8mJYmT1I5iUW0bEQhK7zGwuFc9X.png",
+            "large": "https://api.jakov.rs/storage/images/products/bazeni-i-oprema-large-i95RjGisrQKEu8mJYmT1I5iUW0bEQhK7zGwuFc9X.png"
+          },
+          "main_category_slug": "bazeni-i-oprema",
+          "order": 4
+        },
+        {
+          "id": 343870,
+          "sku": "IGR014494A00000",
+          "name": "Društvena igra Pino Toys \"Ne ljuti se čoveče\" - Pirati, 7616-1",
+          "slug": "drustvena-igra-pino-toys-ne-ljuti-se-covece-pirati-7616-1",
+          "price": 1860,
+          "web_price": 1860,
+          "retail_price": 2180,
+          "dealer_price": 1821.6,
+          "authenticated_price": 1860,
+          "main_image": {
+            "id": 143833,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/drustvene-igre-tiny-bIGdY9z5k0hp0Vs3g2wsVLz1iLy0WpvCGXOqu5Lj.png",
+            "small": "https://api.jakov.rs/storage/images/products/drustvene-igre-small-bIGdY9z5k0hp0Vs3g2wsVLz1iLy0WpvCGXOqu5Lj.png",
+            "medium": "https://api.jakov.rs/storage/images/products/drustvene-igre-medium-bIGdY9z5k0hp0Vs3g2wsVLz1iLy0WpvCGXOqu5Lj.png",
+            "large": "https://api.jakov.rs/storage/images/products/drustvene-igre-large-bIGdY9z5k0hp0Vs3g2wsVLz1iLy0WpvCGXOqu5Lj.png"
+          },
+          "main_category_slug": "drustvene-igre",
+          "order": 5
+        },
+        {
+          "id": 343868,
+          "sku": "IGR014493A00000",
+          "name": "Muzička vrteška Jungle",
+          "slug": "muzicka-vrteska-jungle",
+          "price": 1100,
+          "web_price": 1100,
+          "retail_price": 1290,
+          "dealer_price": 1079.27,
+          "authenticated_price": 1100,
+          "main_image": {
+            "id": 143626,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/igracke-za-bebe-tiny-npgH6ZrFuCC5GTGpp1CgZAa3HnxHvRgaKuG97ynq.png",
+            "small": "https://api.jakov.rs/storage/images/products/igracke-za-bebe-small-npgH6ZrFuCC5GTGpp1CgZAa3HnxHvRgaKuG97ynq.png",
+            "medium": "https://api.jakov.rs/storage/images/products/igracke-za-bebe-medium-npgH6ZrFuCC5GTGpp1CgZAa3HnxHvRgaKuG97ynq.png",
+            "large": "https://api.jakov.rs/storage/images/products/igracke-za-bebe-large-npgH6ZrFuCC5GTGpp1CgZAa3HnxHvRgaKuG97ynq.png"
+          },
+          "main_category_slug": "igracke-za-bebe",
+          "order": 6
+        },
+        {
+          "id": 158562,
+          "sku": "DI7685A00000",
+          "name": "Ležaljka Fisher Price Vesela Šuma - MACDN47",
+          "slug": "lezaljka-fisher-price-vesela-suma-macdn47",
+          "price": 6790,
+          "web_price": 8570,
+          "retail_price": 9580,
+          "dealer_price": 8099.02,
+          "authenticated_price": 8570,
+          "discount": {
+            "id": 16934,
+            "type": null,
+            "price": 6790,
+            "from": "2023-02-09",
+            "to": "2023-02-28",
+            "sticker": null
+          },
+          "main_image": {
+            "id": 144023,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/igracke-za-dvoriste-tiny-lE6I4708YEae8deYhz1lqvptQ7T85KzwWPev4DDB.png",
+            "small": "https://api.jakov.rs/storage/images/products/igracke-za-dvoriste-small-lE6I4708YEae8deYhz1lqvptQ7T85KzwWPev4DDB.png",
+            "medium": "https://api.jakov.rs/storage/images/products/igracke-za-dvoriste-medium-lE6I4708YEae8deYhz1lqvptQ7T85KzwWPev4DDB.png",
+            "large": "https://api.jakov.rs/storage/images/products/igracke-za-dvoriste-large-lE6I4708YEae8deYhz1lqvptQ7T85KzwWPev4DDB.png"
+          },
+          "main_category_slug": "ljuljaske-lezaljke-i-nosiljke",
+          "order": 7
+        },
+        {
+          "id": 340551,
+          "sku": "IGR013634A00000",
+          "name": "754468 LUTKA",
+          "slug": "754468-lutka",
+          "price": 1190,
+          "web_price": 1190,
+          "retail_price": 1390,
+          "dealer_price": 1147.7,
+          "authenticated_price": 1190,
+          "main_image": {
+            "id": 139574,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/754468-lutka-tiny-20230203130931000000",
+            "small": "https://api.jakov.rs/storage/images/products/754468-lutka-small-20230203130931000000",
+            "medium": "https://api.jakov.rs/storage/images/products/754468-lutka-medium-20230203130932000000",
+            "large": "https://api.jakov.rs/storage/images/products/754468-lutka-large-20230203130932000000"
+          },
+          "main_category_slug": "lutke-i-oprema",
+          "order": 8
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Sport i sportska oprema",
+      "order": 8,
+      "categories": [
+        {
+          "id": 422,
+          "name": "Bicikli",
+          "slug": "bicikli",
+          "order": 1,
+          "image": null
+        },
+        {
+          "id": 424,
+          "name": "Biciklistička oprema",
+          "slug": "biciklisticka-oprema",
+          "order": 2,
+          "image": null
+        },
+        {
+          "id": 541,
+          "name": "Fitnes oprema",
+          "slug": "fitnes-oprema",
+          "order": 3,
+          "image": null
+        }
+      ],
+      "products": [
+        {
+          "id": 338619,
+          "sku": "BIC007948A00000",
+          "name": "Bicikl KRONOS 26\"/21 crna/plava/siva mat",
+          "slug": "bicikl-kronos-2621-crnaplavasiva-mat",
+          "price": 29940,
+          "web_price": 29940,
+          "retail_price": 36970,
+          "dealer_price": 32549.4,
+          "authenticated_price": 29940,
+          "main_image": {
+            "id": 137664,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/bicikl-kronos-2621-crnaplavasiva-mat-tiny-20230203085112000000",
+            "small": "https://api.jakov.rs/storage/images/products/bicikl-kronos-2621-crnaplavasiva-mat-small-20230203085112000000",
+            "medium": "https://api.jakov.rs/storage/images/products/bicikl-kronos-2621-crnaplavasiva-mat-medium-20230203085113000000",
+            "large": "https://api.jakov.rs/storage/images/products/bicikl-kronos-2621-crnaplavasiva-mat-large-20230203085113000000"
+          },
+          "main_category_slug": "mtb-bicikli",
+          "order": 1
+        },
+        {
+          "id": 102506,
+          "sku": "BCK8016A00000",
+          "name": "Visitor Scout Aurora MTB 26\" 18 brzina Roze-beli EUR1 AUR261",
+          "slug": "visitor-scout-aurora-mtb-26-18-brzina-roze-beli-eur1-aur261",
+          "price": 19100,
+          "web_price": 19100,
+          "retail_price": 23580,
+          "dealer_price": 20764.25,
+          "authenticated_price": 19100,
+          "main_image": {
+            "id": 21582,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/mtb-bicikli-tiny-qV2YuBBRZZxIPnBNNDZnOXiD9PCgKFC95LQrmeCI.png",
+            "small": "https://api.jakov.rs/storage/images/products/mtb-bicikli-small-qV2YuBBRZZxIPnBNNDZnOXiD9PCgKFC95LQrmeCI.png",
+            "medium": "https://api.jakov.rs/storage/images/products/mtb-bicikli-medium-qV2YuBBRZZxIPnBNNDZnOXiD9PCgKFC95LQrmeCI.png",
+            "large": "https://api.jakov.rs/storage/images/products/mtb-bicikli-large-qV2YuBBRZZxIPnBNNDZnOXiD9PCgKFC95LQrmeCI.png"
+          },
+          "main_category_slug": "mtb-bicikli",
+          "order": 1
+        },
+        {
+          "id": 136261,
+          "sku": "VZD0499A00000",
+          "name": "Dečiji trotinet-romobil PINK 3S 002D4 290116",
+          "slug": "deciji-trotinet-romobil-pink-3s-002d4-290116",
+          "price": 3010,
+          "web_price": 3010,
+          "retail_price": 3370,
+          "dealer_price": 2970,
+          "authenticated_price": 3010,
+          "main_image": {
+            "id": 8200,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-63WXwkZVRDtWeiw2ErnOPfBTzNz8NtT0vf6qs9mS.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-63WXwkZVRDtWeiw2ErnOPfBTzNz8NtT0vf6qs9mS.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-63WXwkZVRDtWeiw2ErnOPfBTzNz8NtT0vf6qs9mS.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-63WXwkZVRDtWeiw2ErnOPfBTzNz8NtT0vf6qs9mS.jpg"
+          },
+          "main_category_slug": "trotineti",
+          "order": 2
+        },
+        {
+          "id": 296518,
+          "sku": "FIT002007A00000",
+          "name": "RING Klupa za trbušnjake - RX 07 PLUS",
+          "slug": "ring-klupa-za-trbusnjake-rx-07-plus",
+          "price": 8550,
+          "web_price": 8550,
+          "retail_price": 10500,
+          "dealer_price": 8869.13,
+          "authenticated_price": 8550,
+          "main_image": {
+            "id": 95685,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/ring-klupa-za-trbusnjake-rx-07-plus-tiny-20221222144409000000",
+            "small": "https://api.jakov.rs/storage/images/products/ring-klupa-za-trbusnjake-rx-07-plus-small-20221222144409000000",
+            "medium": "https://api.jakov.rs/storage/images/products/ring-klupa-za-trbusnjake-rx-07-plus-medium-20221222144409000000",
+            "large": "https://api.jakov.rs/storage/images/products/ring-klupa-za-trbusnjake-rx-07-plus-large-20221222144410000000"
+          },
+          "main_category_slug": "fitnes-oprema",
+          "order": 3
+        },
+        {
+          "id": 173307,
+          "sku": "FIT1103A00000",
+          "name": "Vijača XIAOMI Yunmai SMART YMSR-P701",
+          "slug": "vijaca-xiaomi-yunmai-smart-ymsr-p701",
+          "price": 2920,
+          "web_price": 2920,
+          "retail_price": 3230,
+          "dealer_price": 2735.89,
+          "authenticated_price": 2920,
+          "main_image": {
+            "id": 52998,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/ostale-sprave-tiny-FCogwl51okSpTeg9clVrKKq1jouINPK44A0jyVe5.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/ostale-sprave-small-FCogwl51okSpTeg9clVrKKq1jouINPK44A0jyVe5.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/ostale-sprave-medium-FCogwl51okSpTeg9clVrKKq1jouINPK44A0jyVe5.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/ostale-sprave-large-FCogwl51okSpTeg9clVrKKq1jouINPK44A0jyVe5.jpg"
+          },
+          "main_category_slug": "ostale-sprave",
+          "order": 4
+        },
+        {
+          "id": 61560,
+          "sku": "BCK1111A00000",
+          "name": "Ranac - Tour de France sa uloškom za vodu 2l 122510 (190117)",
+          "slug": "ranac-tour-de-france-sa-uloskom-za-vodu-2l-122510-190117",
+          "price": 3790,
+          "web_price": 3790,
+          "retail_price": 4260,
+          "dealer_price": 3888,
+          "authenticated_price": 3790,
+          "main_image": {
+            "id": 10910,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-tIANh9wqfPHlknDUwBBU25JhWYE2pe2pLcJMxUyw.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-tIANh9wqfPHlknDUwBBU25JhWYE2pe2pLcJMxUyw.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-tIANh9wqfPHlknDUwBBU25JhWYE2pe2pLcJMxUyw.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-tIANh9wqfPHlknDUwBBU25JhWYE2pe2pLcJMxUyw.jpg"
+          },
+          "main_category_slug": "torbice-bisage-i-ranci",
+          "order": 5
+        },
+        {
+          "id": 251938,
+          "sku": "BIC005655A00000",
+          "name": "KACIGA HAL FLUO L  XL",
+          "slug": "kaciga-hal-fluo-l-xl",
+          "price": 5560,
+          "web_price": 5560,
+          "retail_price": 6240,
+          "dealer_price": 5700,
+          "authenticated_price": 5560,
+          "main_image": {
+            "id": 60127,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/kaciga-hal-fluo-l-xl-tiny-20221125133543000000",
+            "small": "https://api.jakov.rs/storage/images/products/kaciga-hal-fluo-l-xl-small-20221125133544000000",
+            "medium": "https://api.jakov.rs/storage/images/products/kaciga-hal-fluo-l-xl-medium-20221125133544000000",
+            "large": "https://api.jakov.rs/storage/images/products/kaciga-hal-fluo-l-xl-large-20221125133544000000"
+          },
+          "main_category_slug": "kacige",
+          "order": 6
+        },
+        {
+          "id": 93634,
+          "sku": "BIC0484A00000",
+          "name": "Dečiji bicikl SUM120 My summer Visitor 12\" Roze 2020",
+          "slug": "deciji-bicikl-sum120-my-summer-visitor-12-roze-2020",
+          "price": 8500,
+          "web_price": 8500,
+          "retail_price": 9890,
+          "dealer_price": 8713.01,
+          "authenticated_price": 8500,
+          "main_image": {
+            "id": 8414,
+            "main": true,
+            "tiny": "https://api.jakov.rs/storage/images/products/tiny-h1UI0jGvlrSH1ajQGwTKKtxc5gVTBD8P72PwUwSx.jpg",
+            "small": "https://api.jakov.rs/storage/images/products/small-h1UI0jGvlrSH1ajQGwTKKtxc5gVTBD8P72PwUwSx.jpg",
+            "medium": "https://api.jakov.rs/storage/images/products/medium-h1UI0jGvlrSH1ajQGwTKKtxc5gVTBD8P72PwUwSx.jpg",
+            "large": "https://api.jakov.rs/storage/images/products/large-h1UI0jGvlrSH1ajQGwTKKtxc5gVTBD8P72PwUwSx.jpg"
+          },
+          "main_category_slug": "deciji-bicikli",
+          "order": 7
+        }
+      ]
+    }
+  ]
+}

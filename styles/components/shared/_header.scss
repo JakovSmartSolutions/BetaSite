@@ -25,8 +25,11 @@ header {
         }
       }
       .right {
-        @include flexAlign;
-        gap: 5px;
+        a {
+          @include flexAlign;
+          gap: 5px;
+        }
+
         svg {
           width: 24px;
           height: 24px;
@@ -301,8 +304,11 @@ header {
   }
   nav {
     @include flexAlign;
-    grid-gap: 170px;
+    gap: 170px;
     padding: 12px 0;
+    @include media-max($bp-xxl) {
+      gap: 140px;
+    }
     @include media-max($bp-xl) {
       grid-gap: 50px;
     }
@@ -340,11 +346,14 @@ header {
     .links {
       @include flexAlign;
       gap: 45px;
+      @include media-max($bp-xxl) {
+        gap: 30px;
+      }
       @include media-max($bp-lg) {
-        grid-gap: 25px;
+        gap: 25px;
       }
       @include media-max($bp-md) {
-        grid-gap: 20px;
+        gap: 20px;
       }
       a.link {
         font-weight: 400;

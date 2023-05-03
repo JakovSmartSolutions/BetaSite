@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none !important;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: $color-light;
+}
+
+#next,
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $color-text-primary;
+  font-weight: 500;
+}
+
+p,
+li,
+a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: $color-text-primary;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}

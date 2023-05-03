@@ -28,6 +28,16 @@
       top: 15px;
       left: 15px;
     }
+    .catalogStickers {
+      position: absolute;
+      right: 0;
+      top: 40px;
+
+      img {
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
     .photo {
       height: 190px;
       display: flex;
@@ -36,8 +46,8 @@
       margin: 30px 30px 10px 30px;
       @include flexCenter;
 
-      img{
-        height: auto!important;
+      img {
+        height: auto !important;
       }
     }
     h2 {

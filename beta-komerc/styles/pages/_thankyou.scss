@@ -1,0 +1,59 @@
+.thankyouPage {
+  height: 70vh;
+  @include flexCenter;
+
+  .innerContainer {
+    width: 80%;
+    max-width: 750px;
+    @include flexCenter;
+    flex-direction: column;
+    gap: 15px;
+
+    @include media-max($bp-xxs) {
+      gap: 5px;
+    }
+
+    .bulbSucces {
+      @include media-max($bp-sm) {
+        width: 100px;
+        height: 200px;
+      }
+
+      @include media-max($bp-xxs) {
+        width: 80px;
+        height: 120px;
+      }
+    }
+
+    h3 {
+      font-size: 32px;
+      @include media-max($bp-sm) {
+        font-size: 28px;
+      }
+      @include media-max($bp-xxs) {
+        font-size: 22px;
+      }
+    }
+
+    p {
+      text-align: center;
+      font-size: 16px;
+      @include media-max($bp-sm) {
+        font-size: 14px;
+      }
+
+      @include media-max($bp-xxs) {
+        font-size: 12px;
+        line-height: 1.4;
+      }
+    }
+
+    a {
+      @include media-max($bp-xxs) {
+        padding: 6px 10px;
+        font-size: 13px;
+        margin-top: 10px;
+      }
+    }
+  }
+}

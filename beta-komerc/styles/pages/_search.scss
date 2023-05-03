@@ -1,0 +1,23 @@
+.searchResultPage {
+  padding-bottom: 60px;
+  .paper {
+    padding: 30px;
+    .productsGrid {
+      grid-template-columns: repeat(5, 1fr);
+
+      @include media-max(1800px) {
+        grid-template-columns: repeat(4, 1fr);
+      }
+      @include media-max(1400px) {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      @include media-max($bp-md) {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      @include media-max($bp-xs) {
+        grid-template-columns: 100%;
+        width: 100%;
+      }
+    }
+  }
+}

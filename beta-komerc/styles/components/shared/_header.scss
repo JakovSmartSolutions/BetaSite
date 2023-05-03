@@ -1,0 +1,438 @@
+header {
+  background: $color-light;
+  border-bottom: 1px solid $color-border;
+  .headerBanner {
+    &__content {
+      @include flexCenterBetween;
+      padding: 6px 0;
+      @include media-max($bp-sm) {
+        @include flexColumnCenter;
+        gap: 5px;
+      }
+      p,
+      a {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: $color-bg-header;
+      }
+      .left {
+        @include flexAlign;
+        gap: 5px;
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+      }
+      .right {
+        @include flexAlign;
+        gap: 5px;
+        svg {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+  .headerMiddle {
+    background: $color-bg-header;
+    padding: 10px 0;
+    position: relative;
+    @include media-max($bp-sm) {
+      padding: 15px 0;
+    }
+    &__content {
+      @include flexCenterBetween;
+      .left {
+        display: grid;
+        grid-template-columns: 240px 630px;
+        align-items: center;
+        gap: 120px;
+        @include media-max($bp-xxl) {
+          grid-template-columns: 240px 550px;
+          gap: 50px;
+        }
+        @include media-max($bp-xl) {
+          grid-template-columns: 200px 450px;
+          gap: 24px;
+        }
+        @include media-max($bp-lg) {
+          grid-template-columns: 170px 400px;
+        }
+        @include media-max($bp-md) {
+          grid-template-columns: 170px 350px;
+          gap: 10px;
+        }
+        @include media-max($bp-sm) {
+          display: flex;
+          gap: 0;
+        }
+        .hamburger-react {
+          display: none;
+          @include media-max($bp-sm) {
+            display: block;
+            width: 20px;
+            height: 20px;
+            color: $color-white;
+            margin-right: 10px;
+            cursor: pointer;
+          }
+        }
+        .logoLink {
+          position: relative;
+          width: 100%;
+          height: 84px;
+          @include media-max($bp-xl) {
+            height: 60px;
+          }
+          @include media-max($bp-lg) {
+            height: 50px;
+          }
+          @include media-max($bp-sm) {
+            width: 150px;
+            height: 40px;
+          }
+        }
+        .searchInput {
+          width: 100%;
+          position: relative;
+          @include media-max($bp-sm) {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: $color-white;
+            z-index: 9999999999999;
+            padding: 10px;
+            overflow-y: auto;
+            display: none;
+            &.active {
+              display: block;
+            }
+          }
+          .closeBtn {
+            display: none;
+            @include media-max($bp-sm) {
+              display: block;
+              margin: 0 0 10px auto;
+            }
+          }
+          .row {
+            position: relative;
+            display: flex;
+            align-items: center;
+            @include media-max($bp-sm) {
+              border: 1px solid $color-border;
+              border-radius: 30px;
+            }
+            input {
+              padding-right: 42px;
+              background: $color-white;
+              &::placeholder {
+                font-weight: 300;
+              }
+              &.active {
+                border-radius: $border-radius-input $border-radius-input 0 0;
+              }
+              @include media-max($bp-sm) {
+                border-radius: 30px;
+                &.active {
+                  border-radius: 30px;
+                }
+              }
+            }
+            .searchIcon {
+              position: absolute;
+              right: 15px;
+              top: 50%;
+              transform: translateY(-50%);
+              width: 22px;
+              height: 22px;
+              cursor: pointer;
+              z-index: 1;
+            }
+          }
+          .searchResultInputMask {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            @include media-max($bp-sm) {
+              display: none;
+            }
+          }
+          .searchResultInput {
+            position: absolute;
+            width: 100%;
+            height: fit-content;
+            max-height: 400px;
+            overflow-y: scroll;
+            background: $color-white;
+            border-bottom-left-radius: $border-radius-input;
+            border-bottom-right-radius: $border-radius-input;
+            z-index: 9999999999999;
+            &::-webkit-scrollbar {
+              width: 5px;
+              border-radius: $border-radius-input;
+            }
+            &::-webkit-scrollbar-track {
+              background: transparent;
+            }
+
+            &::-webkit-scrollbar-thumb {
+              background: rgb(219, 219, 219);
+              border-radius: $border-radius-input;
+            }
+            @include media-max($bp-sm) {
+              position: static;
+              max-height: unset;
+              overflow: unset;
+              border-radius: 0;
+              z-index: unset;
+            }
+            .productRow {
+              display: grid;
+              grid-template-columns: 52px 1fr 24px;
+              align-items: center;
+              gap: 20px;
+              padding: 10px 20px;
+              width: 100%;
+              cursor: pointer;
+              @include media-max($bp-sm) {
+                padding: 10px 0;
+                grid-template-columns: 52px 1fr;
+              }
+              &:hover {
+                background: $color-light;
+              }
+              .photo {
+                width: 52px;
+                height: 52px;
+              }
+              .info {
+                display: flex;
+                flex-direction: column;
+                h2 {
+                  font-size: 14px;
+                  font-weight: 400;
+                  @include media-max($bp-sm) {
+                    font-size: 12px;
+                  }
+                }
+                p {
+                  font-size: 16px;
+                  font-weight: 600;
+                  @include media-max($bp-sm) {
+                    font-size: 14px;
+                  }
+                }
+              }
+
+              svg {
+                position: relative;
+                width: 24px;
+                height: 24px;
+                margin-left: auto;
+                @include media-max($bp-sm) {
+                  display: none;
+                }
+              }
+            }
+
+            .noResult {
+              padding: 15px;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .links {
+        @include flexAlign;
+        gap: 24px;
+        @include media-max($bp-sm) {
+          grid-gap: 15px;
+        }
+        .icon {
+          @include flexAlign;
+          gap: 10px;
+          color: $color-white;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 21px;
+          position: relative;
+          @include media-max($bp-sm) {
+            font-size: 0;
+            gap: 0;
+          }
+          .headerIcon {
+            width: 24px;
+            height: 24px;
+          }
+          svg {
+            width: 24px;
+            height: 24px;
+          }
+          &.mob {
+            display: none;
+            @include media-max($bp-sm) {
+              display: flex;
+            }
+          }
+          span {
+            position: absolute;
+            top: -10px;
+            left: -14px;
+            background: $color-primary;
+            color: $color-white;
+            border-radius: 12px;
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-size: 10px;
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+  }
+  nav {
+    @include flexAlign;
+    grid-gap: 170px;
+    padding: 12px 0;
+    @include media-max($bp-xl) {
+      grid-gap: 50px;
+    }
+    @include media-max($bp-md) {
+      grid-gap: 20px;
+    }
+    @include media-max($bp-sm) {
+      display: none;
+    }
+    .select {
+      position: relative;
+      &.active {
+        svg {
+          transform: rotate(180deg);
+        }
+      }
+      .selectPreview {
+        @include flexAlign;
+
+        background-color: $color-black;
+        border-radius: $border-radius-input;
+        cursor: pointer;
+
+        p {
+          color: $color-white;
+          margin: 10px 50px 10px 20px;
+        }
+        svg {
+          margin-left: 50px;
+          height: 20px;
+          width: 20px;
+        }
+      }
+    }
+    .links {
+      @include flexAlign;
+      gap: 45px;
+      @include media-max($bp-lg) {
+        grid-gap: 25px;
+      }
+      @include media-max($bp-md) {
+        grid-gap: 20px;
+      }
+      a.link {
+        font-weight: 400;
+        color: $color-text-primary;
+        &.active {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+// Mobile Categories
+.mobileCategoriesWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999999999999999;
+  background: rgba($color: $color-black, $alpha: 0.5);
+  display: none;
+  @include media-max($bp-sm) {
+    display: block;
+  }
+  .closeIcon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 24px;
+    height: 24px;
+    color: $color-white;
+  }
+  .content {
+    width: 90%;
+    height: 100%;
+    background: $color-white;
+    overflow-y: auto;
+    .categoryContainer1 {
+      padding-left: 10px;
+    }
+    .categoryContainer2 {
+      padding-left: 20px;
+    }
+    .categoryContainer3 {
+      padding-left: 30px;
+    }
+    .categoryContainer4 {
+      padding-left: 40px;
+    }
+    .item {
+      display: grid;
+      grid-template-columns: 1fr 25px;
+      align-items: center;
+      border-bottom: 1px solid $color-border;
+      &.root {
+        background: $color-light;
+      }
+
+      &.active {
+        a {
+          color: $color-primary;
+          background-color: #ededed;
+        }
+      }
+
+      a {
+        font-size: 14px;
+        font-weight: 500;
+        color: $color-black;
+        padding: 7px 10px;
+      }
+      span {
+        width: 25px;
+        height: 100%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        svg {
+          width: 14px;
+          height: 14px;
+          transition: all 0.2s ease-in-out;
+          &.active {
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+}

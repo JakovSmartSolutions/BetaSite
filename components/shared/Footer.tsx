@@ -1,23 +1,12 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import { CardsIcon } from "public/assets/icons/Cards";
-import LogoImage from "public/assets/images/Logo.png";
 
 export const Footer = () => {
   return (
     <footer>
       <div className="container">
         <div className="top">
-          {/* <div className="logo">
-            <Image
-              src={LogoImage}
-              alt="Beta Komerc"
-              priority
-              fill
-              sizes="(max-width: 1500px) 200px, 240px"
-            />
-          </div> */}
           <div className="links">
             {links.map((group) => (
               <div key={group.id} className="column">

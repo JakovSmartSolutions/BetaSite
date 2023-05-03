@@ -1,5 +1,5 @@
-import { FormikError } from 'components/shared/FormikError';
-import { Field } from 'formik';
+import { FormikError } from "components/shared/FormikError";
+import { Field } from "formik";
 
 const CheckoutForm = () => {
   return (
@@ -26,7 +26,7 @@ const CheckoutForm = () => {
 
         <div className="field">
           <label>PIB</label>
-          <Field name="company_pib" type="text" />
+          <Field name="company_pib" type="number" />
           <FormikError name="company_pib" />
         </div>
       </div>
