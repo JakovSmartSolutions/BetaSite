@@ -12,6 +12,7 @@ const nextConfig = {
     includePaths: [path.join(__dirname, "styles")],
   },
   images: {
+    unoptimized: true,
     domains: ["api.beta.jakov.rs"],
   },
 };
