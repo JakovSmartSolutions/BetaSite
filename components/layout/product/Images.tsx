@@ -15,6 +15,8 @@ interface Props {
 }
 
 export const Images = ({ product }: Props) => {
+  //console.log(product);
+
   const { name, images } = product;
   const { user } = useAuthStore();
   const mainImage = images.find(({ main }) => main)?.large || "";
@@ -25,6 +27,8 @@ export const Images = ({ product }: Props) => {
   const { items } = useWishlistStore();
   const { addToWishlist, removeFromWishlist } = useWishlist();
   const isMobile = useWindowSize();
+
+  const sticker = product.discount?.sticker;
 
   const isAddedToWishList = items.some(
     (item) => item.product.id === product.id
@@ -52,6 +56,16 @@ export const Images = ({ product }: Props) => {
   if (isMobile) {
     return (
       <div className="images">
+        {sticker && (
+          <div className="sticker">
+            <Image
+              src={`${process.env.NEXT_PUBLIC_SITE_URL}/storage/${sticker}`}
+              alt={name}
+              width={50}
+              height={50}
+            />
+          </div>
+        )}
         <Swiper slidesPerView={1}>
           {productImages.map((img) => (
             <SwiperSlide key={img.id}>
@@ -64,6 +78,20 @@ export const Images = ({ product }: Props) => {
             </SwiperSlide>
           ))}
         </Swiper>
+        <div className="catalogStickers">
+          {product.catalog_stickers &&
+            product.catalog_stickers
+              .filter((s) => (s.sticker_active = 1))
+              .map((sticker) => (
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_SITE_URL}/storage/${sticker.sticker}`}
+                  alt={product.name}
+                  key={product.name}
+                  width={50}
+                  height={50}
+                ></Image>
+              ))}
+        </div>
       </div>
     );
   }
@@ -101,6 +129,30 @@ export const Images = ({ product }: Props) => {
           onClick={isAddedToWishList ? removeFromWishList : addInWishList}
         />
         <div className="img">
+          {sticker && (
+            <div className="sticker">
+              <Image
+                src={`${process.env.NEXT_PUBLIC_SITE_URL}/storage/${sticker}`}
+                alt={name}
+                width={80}
+                height={80}
+              />
+            </div>
+          )}
+          <div className="catalogStickers">
+            {product.catalog_stickers &&
+              product.catalog_stickers
+                .filter((s) => (s.sticker_active = 1))
+                .map((sticker) => (
+                  <Image
+                    src={`${process.env.NEXT_PUBLIC_SITE_URL}/storage/${sticker.sticker}`}
+                    alt={product.name}
+                    key={product.name}
+                    width={80}
+                    height={80}
+                  ></Image>
+                ))}
+          </div>
           {activeImage && (
             <Image
               src={activeImage}

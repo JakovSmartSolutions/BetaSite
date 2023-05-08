@@ -27,7 +27,7 @@ export const HeroBanner = ({ banners }: Props) => {
           .filter(({ position: p }) => p.name === "Slajder na početnoj strani")
           .map(({ id, name, desktop_image, mobile_image, link }, i) => (
             <SwiperSlide key={id}>
-              <Link href={link || ""} className="slideItemBanner">
+              <Link href={link || " "} className="slideItemBanner">
                 <Image
                   src={isMobileDevice ? mobile_image : desktop_image}
                   alt={name}

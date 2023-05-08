@@ -18,14 +18,14 @@ export const Footer = () => {
                 ))}
               </div>
             ))}
-            <div className="column">
+            <div className="column needHelp">
               <h2>Potrebna vam je pomoć?</h2>
-              <p>Call centar</p>
+              <p>CALL CENTAR</p>
               <a href="tel: 017 400 106">017 400 106</a>
               <a href="tel: 064 823 8337">064 823 8337</a>
-              <p>Email adresa</p>
+              <p>EMAIL</p>
               <a href="mailto: info@betakomerc.rs">info@betakomerc.rs</a>
-              <p>Gde se nalazimo?</p>
+              <p>GDE SE NALAZIMO?</p>
               <p className="address">Bore Stankovića 59, 17000, Vranje</p>
             </div>
           </div>

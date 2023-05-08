@@ -19,6 +19,8 @@ import { useWishlistStore } from "stores/WishlistStore";
 import useWindowSize from "hooks/useWindowSIze";
 import { CartPreview } from "../CartPreview";
 import { MobileCategories } from "./MobileCategories";
+import { CategoriesIcon } from "@/public/assets/icons/Categories";
+//import { CategoriesIcon } from "@/public/assets/icons/Categories";
 
 interface Props {
   categories: Category[];
@@ -46,6 +48,9 @@ export const HeaderMiddle = ({ categories }: Props) => {
                 size={18}
                 onToggle={() => setIsOpenCategories((p) => !p)}
               />
+              {/* <CategoriesIcon
+                onClick={() => setIsOpenCategories(!isOpenCategories)}
+              /> */}
               <Link href="/" className="logoLink">
                 <Image
                   src={LogoImage}
@@ -60,10 +65,11 @@ export const HeaderMiddle = ({ categories }: Props) => {
                 setIsOpenMob={setIsOpenSearch}
               />
             </div>
+
             <div className="links">
-              <div className="icon mob" onClick={() => setIsOpenSearch(true)}>
+              {/* <div className="icon mob" onClick={() => setIsOpenSearch(true)}>
                 <SearchIcon />
-              </div>
+              </div> */}
               <Link href="/lista-zelja" className="icon">
                 {wishList.length ? <span>{wishList.length}</span> : null}
                 <WishListIcon />
@@ -94,6 +100,12 @@ export const HeaderMiddle = ({ categories }: Props) => {
               </Link>
             </div>
           </div>
+          {isMobileDevice && (
+            <SearchField
+              isOpenMob={isOpenSearch}
+              setIsOpenMob={setIsOpenSearch}
+            />
+          )}
         </div>
       </div>
       {isMobileDevice && isOpenCategories && (

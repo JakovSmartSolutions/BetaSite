@@ -54,7 +54,7 @@ export const SearchResult = ({ data, clearInput }: Props) => {
                   </div>
                   <div className="info">
                     <h2>{el.name}</h2>
-                    <p>420</p>
+                    {/* <p>420</p> */}
                     <p>{formatPrice(price(el))}</p>
                   </div>
                   <GoToProductIcon />

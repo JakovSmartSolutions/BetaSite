@@ -53,7 +53,7 @@ interface ItemProps {
 }
 
 const Item = ({ el }: ItemProps) => (
-  <Link href={el.link || ""} className="bannerItem">
+  <Link href={el.link || " "} className="bannerItem">
     <Image
       src={
         typeof window !== "undefined" && window.innerWidth < 1024

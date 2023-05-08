@@ -16,6 +16,8 @@ interface Props {
 const ProductPage = ({ product }: Props) => {
   if (!product) return null;
 
+  //console.log(product);
+
   return (
     <>
       {/* <NextSeo

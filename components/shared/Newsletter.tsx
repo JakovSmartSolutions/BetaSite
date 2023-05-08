@@ -36,7 +36,7 @@ export const Newsletter = () => {
               <Field
                 name="email"
                 type="email"
-                placeholder="newsletter@betakomerc.rs"
+                placeholder="Unesite email adresu..."
                 required
               />
               <button type="submit" className="btn-primary">

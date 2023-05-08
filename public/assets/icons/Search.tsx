@@ -4,7 +4,7 @@ export const SearchIcon = (props: any) => (
     width="1em"
     height="1em"
     fill="none"
-    stroke="currentColor"
+    stroke="white"
     strokeLinecap="round"
     strokeLinejoin="round"
     strokeWidth="2"

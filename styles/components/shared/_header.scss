@@ -6,7 +6,7 @@ header {
       @include flexCenterBetween;
       padding: 6px 0;
       @include media-max($bp-sm) {
-        @include flexColumnCenter;
+        //@include flexColumnCenter;
         gap: 5px;
       }
       p,
@@ -15,6 +15,9 @@ header {
         font-size: 12px;
         line-height: 18px;
         color: $color-bg-header;
+        // @include media-max($bp-xs) {
+        //   font-size: 10px;
+        // }
       }
       .left {
         @include flexAlign;
@@ -22,17 +25,28 @@ header {
         svg {
           width: 24px;
           height: 24px;
+          @include media-max($bp-sm) {
+            width: 20px;
+            height: 20px;
+          }
         }
       }
       .right {
         a {
           @include flexAlign;
           gap: 5px;
+          // @include media-max($bp-xs) {
+          //   font-size: 10px;
+          // }
         }
 
         svg {
           width: 24px;
           height: 24px;
+          @include media-max($bp-sm) {
+            width: 20px;
+            height: 20px;
+          }
         }
       }
     }
@@ -53,11 +67,11 @@ header {
         gap: 120px;
         @include media-max($bp-xxl) {
           grid-template-columns: 240px 550px;
-          gap: 50px;
+          gap: 120px;
         }
         @include media-max($bp-xl) {
           grid-template-columns: 200px 450px;
-          gap: 24px;
+          gap: 60px;
         }
         @include media-max($bp-lg) {
           grid-template-columns: 170px 400px;
@@ -69,6 +83,12 @@ header {
         @include media-max($bp-sm) {
           display: flex;
           gap: 0;
+          .links {
+            order: 1;
+          }
+          .searchInput {
+            order: 2;
+          }
         }
         .hamburger-react {
           display: none;
@@ -92,23 +112,23 @@ header {
             height: 50px;
           }
           @include media-max($bp-sm) {
-            width: 150px;
-            height: 40px;
+            width: 174px;
+            height: 57px;
           }
         }
         .searchInput {
           width: 100%;
           position: relative;
           @include media-max($bp-sm) {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            // position: fixed;
+            // top: 0;
+            // left: 0;
+            // right: 0;
+            // bottom: 0;
             background: $color-white;
-            z-index: 9999999999999;
+            //z-index: 9999999999999;
             padding: 10px;
-            overflow-y: auto;
+            //overflow-y: auto;
             display: none;
             &.active {
               display: block;
@@ -116,10 +136,11 @@ header {
           }
           .closeBtn {
             display: none;
-            @include media-max($bp-sm) {
-              display: block;
-              margin: 0 0 10px auto;
-            }
+            // @include media-max($bp-sm) {
+            //   //display: block;
+            //   display: none;
+            //   margin: 0 0 10px auto;
+            // }
           }
           .row {
             position: relative;
@@ -145,15 +166,19 @@ header {
                 }
               }
             }
+
             .searchIcon {
               position: absolute;
-              right: 15px;
+              right: 4px;
               top: 50%;
               transform: translateY(-50%);
-              width: 22px;
-              height: 22px;
+              width: 42px;
+              height: 42px;
               cursor: pointer;
               z-index: 1;
+              background-color: $color-primary;
+              border-radius: 70px;
+              padding: 10px;
             }
           }
           .searchResultInputMask {
@@ -251,6 +276,7 @@ header {
           }
         }
       }
+
       .links {
         @include flexAlign;
         gap: 24px;
@@ -301,8 +327,153 @@ header {
         }
       }
     }
+    //MOBILE SEARCH BAR
+    .searchInput {
+      @include media-max($bp-sm) {
+        margin: 15px 0;
+        width: 100%;
+        display: block;
+        .row {
+          position: relative;
+
+          .closeBtnMobile {
+            position: absolute;
+            right: 20px;
+            top: 35%;
+            //display: none;
+          }
+        }
+        .closeBtn {
+          @include media-max($bp-sm) {
+            display: none;
+          }
+        }
+        &.active {
+          .closeBtn {
+            @include media-max($bp-sm) {
+              display: block;
+            }
+          }
+        }
+      }
+    }
+
+    .searchIcon {
+      @include media-max($bp-sm) {
+        position: absolute;
+        right: 3px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 42px;
+        height: 42px;
+        cursor: pointer;
+        z-index: 1;
+        background-color: $color-primary;
+        border-radius: 70px;
+        padding: 10px;
+        // display: none;
+      }
+    }
+    .searchResultInputMask {
+      @include media-max($bp-sm) {
+        display: none;
+      }
+    }
+    .searchResultInput {
+      position: absolute;
+      width: 100%;
+      height: fit-content;
+      max-height: 400px;
+      overflow-y: scroll;
+      background: $color-white;
+      border-bottom-left-radius: $border-radius-input;
+      border-bottom-right-radius: $border-radius-input;
+      z-index: 9999999999999;
+      &::-webkit-scrollbar {
+        width: 5px;
+        border-radius: $border-radius-input;
+      }
+      &::-webkit-scrollbar-track {
+        background: transparent;
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background: rgb(219, 219, 219);
+        border-radius: $border-radius-input;
+      }
+      @include media-max($bp-sm) {
+        position: static;
+        max-height: unset;
+        overflow: unset;
+        border-radius: 0;
+        z-index: unset;
+      }
+      .productRow {
+        display: grid;
+        grid-template-columns: 52px 1fr 24px;
+        align-items: center;
+        gap: 20px;
+        padding: 10px 20px;
+        width: 100%;
+        cursor: pointer;
+        @include media-max($bp-sm) {
+          padding: 10px 0;
+          grid-template-columns: 52px 1fr;
+        }
+        &:hover {
+          background: $color-light;
+        }
+        .photo {
+          width: 52px;
+          height: 52px;
+        }
+        .info {
+          display: flex;
+          flex-direction: column;
+          @include media-max($bp-sm) {
+            max-width: 100%;
+          }
+          h2 {
+            // font-size: 14px;
+            // font-weight: 400;
+            //width: 100%;
+            //word-wrap: break-word;
+            //display: none;
+            @include media-max($bp-sm) {
+              font-size: 12px;
+              overflow: hidden;
+              width: 260px;
+              // overflow-x: auto;
+              // white-space: nowrap;
+            }
+          }
+          p {
+            font-size: 16px;
+            font-weight: 600;
+            @include media-max($bp-sm) {
+              font-size: 14px;
+            }
+          }
+        }
+
+        svg {
+          position: relative;
+          width: 24px;
+          height: 24px;
+          margin-left: auto;
+          @include media-max($bp-sm) {
+            display: none;
+          }
+        }
+      }
+
+      .noResult {
+        padding: 15px;
+        text-align: center;
+      }
+    }
   }
-  nav {
+  .navigation {
     @include flexAlign;
     gap: 170px;
     padding: 12px 0;
@@ -316,7 +487,7 @@ header {
       grid-gap: 20px;
     }
     @include media-max($bp-sm) {
-      display: none;
+      //display: none;
     }
     .select {
       position: relative;
@@ -325,10 +496,14 @@ header {
           transform: rotate(180deg);
         }
       }
+      @include media-max($bp-sm) {
+        display: none;
+      }
+
       .selectPreview {
         @include flexAlign;
 
-        background-color: $color-black;
+        background-color: $color-primary;
         border-radius: $border-radius-input;
         cursor: pointer;
 
@@ -343,27 +518,99 @@ header {
         }
       }
     }
-    .links {
-      @include flexAlign;
-      gap: 45px;
-      @include media-max($bp-xxl) {
-        gap: 30px;
+    .links-container {
+      @include media-max($bp-sm) {
+        display: flex;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch; /* enable smooth scrolling on iOS */
+        position: relative;
       }
-      @include media-max($bp-lg) {
-        gap: 25px;
-      }
-      @include media-max($bp-md) {
-        gap: 20px;
-      }
-      a.link {
-        font-weight: 400;
-        color: $color-text-primary;
-        &.active {
-          font-weight: 500;
+      .links {
+        @include flexAlign;
+        gap: 45px;
+        @include media-max($bp-xxl) {
+          gap: 30px;
+        }
+        @include media-max($bp-lg) {
+          gap: 25px;
+        }
+        @include media-max($bp-md) {
+          gap: 20px;
+        }
+        @include media-max($bp-sm) {
+          gap: 10px;
+        }
+        a.link {
+          font-weight: 400;
+          color: $color-text-primary;
+          @include media-max($bp-sm) {
+            scroll-snap-align: start; /* snap to the start of each link */
+            white-space: nowrap; /* prevent links from wrapping */
+            padding: 0 12px; /* add some padding between links */
+            /* add any additional styling as needed */
+            //display: none;
+          }
+          &.active {
+            font-weight: 500;
+          }
+          &.primary {
+            background-color: #1292b6;
+            border-radius: $border-radius-button;
+            padding: 10px 25px;
+            color: $color-white;
+          }
+        }
+        .show-more {
+          position: sticky;
+          right: 0;
+          margin-left: auto;
+          font-size: 20px;
+          display: none;
+          //font-weight: bold;
+          //visibility: hidden;
+          // padding-left: 30px;
+          // background-color: $color-white;
+          // background: linear-gradient(
+          //   to right,
+          //   transparent,
+          //   $color-light,
+          //   $color-light,
+          //   transparent
+          // );
+          // z-index: 100;
         }
       }
     }
+    // .links-container::after {
+    //   @include media-max($bp-sm) {
+    //     content: "";
+    //     position: absolute;
+    //     top: 0;
+    //     right: 0;
+    //     bottom: 0;
+    //     width: 30px; /* adjust width as needed */
+    //     background-image: linear-gradient(
+    //       to right,
+    //       rgba(255, 255, 255, 0),
+    //       #fff
+    //     );
+    //   }
+    // }
   }
+  // .navigationMobile {
+  //   @include media-max($bp-sm) {
+  //     @include flexAlign;
+  //     a {
+  //       font-size: 15px;
+  //       margin: auto 0;
+  //     }
+  //   }
+  //   .swiper-button-prev,
+  //   .swiper-button-next {
+  //     display: none;
+  //   }
+  // }
 }
 
 // Mobile Categories

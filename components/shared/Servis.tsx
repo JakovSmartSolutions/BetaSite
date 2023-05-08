@@ -10,8 +10,8 @@ export const Servis = () => {
           <Image
             src={ServisImage}
             alt="servis"
-            height={200}
-            width={225}
+            height={201}
+            width={296}
           ></Image>
         </div>
       </div>

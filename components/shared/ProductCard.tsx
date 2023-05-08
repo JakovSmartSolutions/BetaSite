@@ -19,7 +19,7 @@ interface Props {
 }
 
 export const ProductCard = ({ product }: Props) => {
-  console.log(product);
+  //console.log(product);
   const { name, main_image } = product;
 
   const title = name.length > 40 ? `${name.slice(0, 40)}...` : name;
@@ -78,6 +78,7 @@ export const ProductCard = ({ product }: Props) => {
                 <Image
                   src={`${process.env.NEXT_PUBLIC_SITE_URL}/storage/${sticker.sticker}`}
                   alt={product.name}
+                  key={product.name}
                   width={50}
                   height={50}
                 ></Image>
@@ -97,7 +98,7 @@ export const ProductCard = ({ product }: Props) => {
       </div>
 
       <div className="bottom">
-        <div className="badgeHolder">
+        {/* <div className="badgeHolder">
           {badgeText && (
             <div className="badge primary" title={badgeText}>
               {badgeText.length > 30
@@ -105,18 +106,19 @@ export const ProductCard = ({ product }: Props) => {
                 : badgeText}
             </div>
           )}
-        </div>
+        </div> */}
         {product.attributes && (
           <div className="specs">
             <ul>
-              {product.attributes.map((a) => (
-                <li>
+              {product.attributes.slice(0, 4).map((a) => (
+                <li key={a.attribute.name}>
                   {a.attribute.name}: {a.value.value}
                 </li>
               ))}
             </ul>
           </div>
         )}
+
         {product.valuable_attributes &&
           product.valuable_attributes.length > 0 && (
             <div className="specs">
@@ -146,7 +148,7 @@ export const ProductCard = ({ product }: Props) => {
             </div>
           )}
         {/* {!product.attributes && !product.valuable_attributes && product.valuable_attributes.length < 1 && ( */}
-        {!product.attributes && !product.valuable_attributes && (
+        {!product.attributes && product.valuable_attributes.length < 1 && (
           <div className="specs"></div>
         )}
 

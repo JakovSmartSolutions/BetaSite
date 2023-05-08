@@ -10,6 +10,7 @@ import { DynamicProductsSlider } from "components/shared/ProductsSlider";
 //import { BannersSlider } from "components/layout/home/BannersSlider";
 import Link from "next/link";
 import Image from "next/image";
+import useWindowSize from "@/hooks/useWindowSIze";
 //import BannerImage from "public/assets/images/Banner2.png";
 //import AmdImage from "public/assets/images/Banner3.png";
 //import IntelImage from "public/assets/images/Banner4.png";
@@ -25,9 +26,13 @@ const Categories = dynamic(
 );
 
 export default function Home({ data, banners }: Props) {
+  const isMobileDevice = useWindowSize();
+
   const laneBanner = banners.filter(
     (banner) => banner.position.name == "Traka na početnoj"
   );
+
+  //console.log(data);
 
   return (
     <>
@@ -48,11 +53,21 @@ export default function Home({ data, banners }: Props) {
             title={data.sections[0].name}
             subs={data.sections[0].categories}
             products={data.sections[0].products}
+            //slug={data.sections[0].name}
           />
           {laneBanner.length > 0 && (
             <div className="bannersSlider">
               <Link href={laneBanner[0].link || " "} className="bannerItem">
-                <Image src={laneBanner[0].desktop_image} alt="Banner" fill />
+                <Image
+                  src={
+                    isMobileDevice
+                      ? laneBanner[0].mobile_image
+                      : laneBanner[0].desktop_image
+                  }
+                  alt="Banner"
+                  //className={isMobileDevice ? "mobileBanner" : ""}
+                  fill
+                />
               </Link>
             </div>
           )}

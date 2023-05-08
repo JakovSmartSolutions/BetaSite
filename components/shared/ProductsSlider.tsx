@@ -6,6 +6,7 @@ import { isActiveClass } from "utils/activeClass";
 
 import { ProductCard } from "./ProductCard";
 import Link from "next/link";
+import useWindowSize from "@/hooks/useWindowSIze";
 
 interface Props {
   title: string;
@@ -20,13 +21,16 @@ export const ProductsSlider = ({
   products,
   isPrimary = false,
 }: Props) => {
+  const isMobileDevice = useWindowSize();
+
   return (
     <>
       <div className="sectionContainer">
         <div className="sectionLeft">
           <h2 className="sectionTitle">{title}</h2>
-
-          <div className="links">
+        </div>
+        <div className="links">
+          <div className="linksLeft">
             {subs.length > 0 && (
               <Link href={`/kategorije/${subs[0].slug}`}>{subs[0].name}</Link>
             )}
@@ -37,22 +41,13 @@ export const ProductsSlider = ({
               <Link href={`/kategorije/${subs[2].slug}`}>{subs[2].name}</Link>
             )}
           </div>
-
-          {/* {subs.length > 0 && (
-            <div className="links">
-              <Link href={`/kategorije/${slug1}`}>{name1}</Link>
-              <Link href={`/kategorije/${slug2}`}>{name2}</Link>
-              <Link href={`/kategorije/${slug3}`}>{name3}</Link>
-            </div>
-          )} */}
         </div>
       </div>
 
       <div className={isActiveClass(isPrimary, "paper productsSlider")}>
         <Swiper
-          slidesPerView={1}
+          slidesPerView={2}
           spaceBetween={20}
-          loop
           breakpoints={{
             1750: { slidesPerView: 5 },
             1400: { slidesPerView: 4 },

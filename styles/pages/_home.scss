@@ -8,7 +8,9 @@
       height: 500px;
       position: relative;
       @include media-max($bp-xs) {
-        height: 200px;
+        height: 370px;
+        width: 100%;
+        object-fit: cover;
       }
     }
     .swiper-pagination {
@@ -189,13 +191,29 @@
     border-radius: $border-radius;
     overflow: hidden;
     .bannerItem {
-      height: 240px;
       position: relative;
       display: block;
+      height: 240px;
+      width: 100%;
+      // .mobileBanner {
+      //   height: 370px;
+      //   width: 370px;
+      //   object-fit: cover;
+      // }
       @include media-max($bp-xs) {
-        height: 80px;
+        height: 370px;
+        width: 100%;
+        object-fit: cover;
       }
     }
+    // .bannerItem img {
+    //   @include media-max($bp-xs) {
+    //     .bannerItem img {
+    //       height: 100%;
+    //       object-fit: contain;
+    //     }
+    //   }
+    // }
     .swiper-button-prev,
     .swiper-button-next {
       display: none !important;
@@ -256,23 +274,24 @@
       grid-template-columns: 1fr 2fr;
       background: $color-white;
       border-radius: $border-radius;
+      align-items: center;
       @include media-max($bp-sm) {
         display: block;
+        text-align: center;
       }
 
       .left {
         margin: 20px;
         @include media-max($bp-sm) {
-          display: none;
+          margin: 0;
         }
         .servisImage {
-          border-radius: $border-radius;
-          overflow: hidden;
-
+          margin: auto 0;
           img {
-            border-radius: $border-radius;
             width: 100%;
-            height: 100%;
+            height: auto !important;
+            border-radius: $border-radius;
+            overflow: hidden;
           }
         }
       }
@@ -300,7 +319,7 @@
           margin-top: 20px;
           background: $color-light;
           border-radius: 25px;
-          padding: 10px 30px;
+          padding: 10px 32px;
           display: inline-block;
           a {
             font-weight: bold;
@@ -314,23 +333,29 @@
       grid-template-columns: 1fr 2fr;
       background: $color-white;
       border-radius: $border-radius;
+      align-items: center;
       @include media-max($bp-sm) {
         display: block;
+        text-align: center;
       }
       .left {
         background-color: $color-light;
-        @include media-max($bp-sm) {
-          background-color: $color-white;
-        }
-        margin: 20px;
+
+        margin: 0 20px;
+        padding: 40px 20px;
         border-radius: $border-radius;
+        @include media-max($bp-lg) {
+          //margin: 40px 20px;
+        }
+        @include media-max($bp-sm) {
+          margin: 10px;
+        }
         .iconContainer {
           display: flex;
           align-items: center;
           height: 100%;
           border-radius: $border-radius;
           @include media-max($bp-sm) {
-            display: none;
           }
           svg {
             display: block;
@@ -339,7 +364,7 @@
         }
       }
       .right {
-        margin: 20px;
+        margin: 0 20px;
         .text {
           margin-top: 20px;
           h2 {

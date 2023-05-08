@@ -16,7 +16,7 @@
     }
   }
   .images {
-    display: relative;
+    position: relative;
     width: 800px;
     height: 690px;
     background-color: $color-white;
@@ -34,6 +34,30 @@
     @include media-max($bp-sm) {
       width: 100%;
       height: 100%;
+    }
+    .sticker {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      z-index: 1000;
+      @include media-max($bp-sm) {
+        top: 15px;
+        left: 15px;
+      }
+    }
+    .catalogStickers {
+      position: absolute;
+      right: 25px;
+      top: 55px;
+      z-index: 1000;
+      @include media-max($bp-sm) {
+        right: 15px;
+        top: 15px;
+      }
+      img {
+        display: block;
+        margin-bottom: 5px;
+      }
     }
     .backdrop {
       background-color: rgba($color: #000000, $alpha: 0.75);

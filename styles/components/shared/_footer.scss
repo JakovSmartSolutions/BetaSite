@@ -11,9 +11,10 @@ footer {
       flex-direction: column;
       grid-gap: 50px;
     }
-    @include media-max($bp-xs) {
+    @include media-max($bp-sm) {
       margin: 10px;
       grid-gap: 25px;
+      text-align: center;
     }
     .logo {
       position: relative;
@@ -29,6 +30,7 @@ footer {
         width: 100%;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 50px 15px;
+        //text-align: center;
       }
       @include media-max($bp-xs) {
         grid-template-columns: 100%;
@@ -50,16 +52,45 @@ footer {
         color: $color-white;
         display: block;
         width: fit-content;
+        @include media-max($bp-sm) {
+          display: none;
+        }
       }
       p {
         margin-top: 10px;
       }
       .column {
+        @include media-max($bp-sm) {
+          &.needHelp {
+            grid-row: 1/2;
+
+            a,
+            p {
+              @include media-max($bp-sm) {
+                display: flex;
+                margin: 0 auto;
+                //text-transform: uppercase;
+              }
+            }
+            p {
+              @include media-max($bp-sm) {
+                margin: 10px auto;
+              }
+            }
+          }
+        }
+
         p {
           font-weight: bold;
+          @include media-max($bp-sm) {
+            margin: 0 auto;
+          }
         }
         .address {
           font-weight: 400;
+          @include media-max($bp-sm) {
+            margin: 0 auto;
+          }
         }
       }
     }

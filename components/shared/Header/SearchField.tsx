@@ -10,6 +10,7 @@ import { isActiveClass } from "utils/activeClass";
 import useDebounce from "hooks/useDebounce";
 import { useRouter } from "next/router";
 import { SearchResult } from "./SearchResult";
+import useWindowSize from "@/hooks/useWindowSIze";
 
 interface Props {
   isOpenMob: boolean;
@@ -19,6 +20,7 @@ interface Props {
 export const SearchField = ({ isOpenMob, setIsOpenMob }: Props) => {
   const [searchQuery, setSearchQuery] = useState("");
   const [isFirstRender, setIsFirstRender] = useState(true);
+  const isMobileDevice = useWindowSize();
 
   const { push } = useRouter();
   const { debounce } = useDebounce();
@@ -60,7 +62,20 @@ export const SearchField = ({ isOpenMob, setIsOpenMob }: Props) => {
             if (e.key === "Enter") redirect();
           }}
         />
-        <SearchIcon className="searchIcon" onClick={redirect} />
+        {isMobileDevice && searchQuery.length > 0 && (
+          <CloseCircle
+            className="closeBtnMobile"
+            onClick={() => setSearchQuery("")}
+          />
+        )}
+        {!isMobileDevice && (
+          // <div className="searchIconContainer">
+          <SearchIcon className="searchIcon" onClick={redirect} />
+          // </div>
+        )}
+        {isMobileDevice && searchQuery === "" && (
+          <SearchIcon className="searchIcon" onClick={redirect} />
+        )}
       </div>
       {searchQuery.length ? (
         <SearchResult
