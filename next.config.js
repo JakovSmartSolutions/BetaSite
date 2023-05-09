@@ -8,11 +8,11 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
-    domains: ['api.beta.jakov.rs'],
+    domains: ['api.betakomerc.rs'],
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'api.beta.jakov.rs',
+        hostname: 'api.betakomerc.rs',
       },
     ],
   },
