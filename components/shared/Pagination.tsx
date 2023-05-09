@@ -33,6 +33,7 @@ export const Pagination = ({ setActivePage, meta }: Props) => {
 
   const handleSetPage = (page: number) => {
     if (current_page !== page) setActivePage(page);
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   const items = () => {

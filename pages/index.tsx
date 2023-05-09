@@ -11,6 +11,9 @@ import { DynamicProductsSlider } from "components/shared/ProductsSlider";
 import Link from "next/link";
 import Image from "next/image";
 import useWindowSize from "@/hooks/useWindowSIze";
+import { GenericProduct } from "@/types/global.types";
+import { Action } from "@/types/actions.types";
+import { ProductsSpecial } from "@/components/shared/ProductsSpecial";
 //import BannerImage from "public/assets/images/Banner2.png";
 //import AmdImage from "public/assets/images/Banner3.png";
 //import IntelImage from "public/assets/images/Banner4.png";
@@ -18,6 +21,8 @@ import useWindowSize from "@/hooks/useWindowSIze";
 interface Props {
   data: HomePageData;
   banners: Banner[];
+  action: Action;
+  specialProducts: GenericProduct[];
 }
 
 const Categories = dynamic(
@@ -25,14 +30,17 @@ const Categories = dynamic(
   { ssr: false }
 );
 
-export default function Home({ data, banners }: Props) {
+export default function Home({
+  data,
+  banners,
+  action,
+  specialProducts,
+}: Props) {
   const isMobileDevice = useWindowSize();
 
   const laneBanner = banners.filter(
     (banner) => banner.position.name == "Traka na početnoj"
   );
-
-  //console.log(data);
 
   return (
     <>
@@ -47,14 +55,14 @@ export default function Home({ data, banners }: Props) {
             subs={[]}
           />
           <Categories categories={data.categories} />
-
-          <DynamicProductsSlider
-            key={data.sections[0].id}
-            title={data.sections[0].name}
-            subs={data.sections[0].categories}
-            products={data.sections[0].products}
-            //slug={data.sections[0].name}
-          />
+          {data.sections[0] && (
+            <DynamicProductsSlider
+              key={data.sections[0].id}
+              title={data.sections[0].name}
+              subs={data.sections[0].categories}
+              products={data.sections[0].products}
+            />
+          )}
           {laneBanner.length > 0 && (
             <div className="bannersSlider">
               <Link href={laneBanner[0].link || " "} className="bannerItem">
@@ -65,7 +73,6 @@ export default function Home({ data, banners }: Props) {
                       : laneBanner[0].desktop_image
                   }
                   alt="Banner"
-                  //className={isMobileDevice ? "mobileBanner" : ""}
                   fill
                 />
               </Link>
@@ -81,6 +88,15 @@ export default function Home({ data, banners }: Props) {
             />
           )}
 
+          {data.sections[2] && (
+            <DynamicProductsSlider
+              key={data.sections[2].id}
+              title={data.sections[2].name}
+              subs={data.sections[2].categories}
+              products={data.sections[2].products}
+            />
+          )}
+
           {/* <div className="bannerAmdIntel">
             <div className="bannerAmd">
               <button>POGLEDAJ PONUDU</button>
@@ -89,7 +105,13 @@ export default function Home({ data, banners }: Props) {
               <button>POGLEDAJ PONUDU</button>
             </div>
           </div> */}
-          {data.sections.slice(2, data.sections.length).map((section) => (
+          {action && specialProducts.length > 0 && (
+            <ProductsSpecial
+              action={action}
+              products={specialProducts}
+            ></ProductsSpecial>
+          )}
+          {data.sections.slice(3, data.sections.length).map((section) => (
             <DynamicProductsSlider
               key={section.id}
               title={section.name}
@@ -97,7 +119,6 @@ export default function Home({ data, banners }: Props) {
               products={section.products}
             />
           ))}
-
           <div className="servisNews">
             <Servis />
             <Newsletter />
@@ -112,13 +133,30 @@ export async function getServerSideProps() {
   const baseURL = process.env.NEXT_PUBLIC_BASE_URL;
   const data = await fetch(`${baseURL}home-page/web`);
   const banners = await fetch(`${baseURL}banners?paginate=10`);
+  const actions = await fetch(`${baseURL}catalog-stickers`);
   const { data: dataRes } = await data.json();
   const { data: bannersRes } = await banners.json();
+
+  const { data: actionsRes } = await actions.json();
+
+  const firstAction = actionsRes[0];
+
+  let specialProductsRes = [];
+
+  if (firstAction) {
+    const specialProducts = await fetch(
+      `${baseURL}catalog-stickers/${firstAction.id}`
+    );
+    const { data: specialProductsData } = await specialProducts.json();
+    specialProductsRes = specialProductsData.slice(0, 2);
+  }
 
   return {
     props: {
       data: dataRes,
       banners: bannersRes,
+      action: firstAction || null,
+      specialProducts: specialProductsRes,
     },
   };
 }

@@ -5,6 +5,7 @@ import { Action } from "types/actions.types";
 
 import { Newsletter } from "components/shared/Newsletter";
 import { Breadcrumb } from "components/shared/Breadcrumb";
+import useWindowSize from "@/hooks/useWindowSIze";
 // import { NextSeo } from 'next-seo';
 // import { seoData } from 'seo/seo.data';
 
@@ -13,8 +14,7 @@ interface Props {
 }
 
 const Actions = ({ data }: Props) => {
-  console.log("akcije: ");
-  console.log(data);
+  const isMobileDevice = useWindowSize();
   return (
     <>
       {/* <NextSeo
@@ -35,9 +35,15 @@ const Actions = ({ data }: Props) => {
               <Link href={`/akcije/${item.id}`} key={item.id} className="card">
                 <div className="img">
                   <Image
-                    src={`${process.env.NEXT_PUBLIC_SITE_URL}/storage/${item.mobile_image}`}
+                    src={
+                      isMobileDevice
+                        ? `${process.env.NEXT_PUBLIC_SITE_URL}/storage/${item.desktop_image}`
+                        : `${process.env.NEXT_PUBLIC_SITE_URL}/storage/${item.desktop_image}`
+                    }
                     alt={item.name}
-                    fill
+                    //fill
+                    width={400}
+                    height={400}
                   />
                 </div>
                 <p>{item.name}</p>
