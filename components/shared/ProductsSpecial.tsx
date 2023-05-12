@@ -27,7 +27,7 @@ export const ProductsSpecial = ({ action, products }: Props) => {
               // src={`${process.env.NEXT_PUBLIC_SITE_URL}/storage/${action.desktop_image}`}
               src={
                 isMobileDevice
-                  ? `${process.env.NEXT_PUBLIC_SITE_URL}/storage/${action.mobile_image}`
+                  ? `${process.env.NEXT_PUBLIC_SITE_URL}/storage/${action.desktop_image}` //change to mobile_image later
                   : `${process.env.NEXT_PUBLIC_SITE_URL}/storage/${action.desktop_image}`
               }
               alt={action.name}

@@ -10,7 +10,9 @@ export const Footer = () => {
           <div className="links">
             {links.map((group) => (
               <div key={group.id} className="column">
-                <h2>{group.title}</h2>
+                <Link className="showAlways" href={group.href}>
+                  <h2>{group.title}</h2>
+                </Link>
                 {group.links.map((link) => (
                   <Link key={link.href} href={link.href}>
                     {link.label}
@@ -62,6 +64,7 @@ const links = [
   {
     id: 1,
     title: "Podrška",
+    href: "/korisnicka-podrska",
     links: [
       { href: "/korisnicka-podrska", label: "Korisnička podrška" },
       { href: "/reklamacije", label: "Reklamacije i povrati" },
@@ -72,6 +75,7 @@ const links = [
   {
     id: 2,
     title: "Plaćanje i isporuka",
+    href: "/nacin-placanja",
     links: [
       { href: "/nacin-placanja", label: "Način plaćanja" },
       { href: "/nacin-isporuke", label: "Način isporuke" },
@@ -80,6 +84,7 @@ const links = [
   {
     id: 3,
     title: "Uslovi korišćenja",
+    href: "/terms-of-conditions",
     links: [
       { href: "/terms-of-conditions", label: "Uslovi korišćenja" },
       { href: "/privacy-policy", label: "Politika privatnosti" },
@@ -90,6 +95,7 @@ const links = [
   {
     id: 4,
     title: "Beta Komerc",
+    href: "/o-nama",
     links: [
       { href: "/o-nama", label: "O nama" },
       { href: "/akcije", label: "Akcije" },

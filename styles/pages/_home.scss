@@ -258,12 +258,13 @@
     @include flexCenterBetween;
     @include media-max($bp-sm) {
       h3 {
-        display: none;
+        font-size: 18px;
       }
     }
     a {
       color: $color-black;
       font-weight: 500;
+      font-size: 14px;
     }
   }
 
@@ -358,6 +359,9 @@
             height: auto !important;
             border-radius: $border-radius;
             overflow: hidden;
+            @include media-max($bp-sm) {
+              //height: 200px !important;
+            }
           }
         }
       }
@@ -445,12 +449,13 @@
         }
         form {
           margin-top: 20px;
+          margin-right: 10px;
           background: $color-light;
           border-radius: 25px;
-          margin-right: 10px;
           @include flexCenterBetween;
           @include media-max($bp-sm) {
             margin-bottom: 20px;
+            margin-right: 0;
           }
           @include media-max($bp-sm) {
             input {

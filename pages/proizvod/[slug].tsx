@@ -8,15 +8,17 @@ import { Images } from "components/layout/product/Images";
 import { Details } from "components/layout/product/details";
 import { CustomBreadCrumb } from "components/shared/CustomBreadcrumb";
 import { DynamicProductsSlider } from "components/shared/ProductsSlider";
+import { useRouter } from "next/router";
 
 interface Props {
   product: SingleProduct;
 }
 
 const ProductPage = ({ product }: Props) => {
+  console.log(product);
+  //const router = useRouter();
   if (!product) return null;
-
-  //console.log(product);
+  //if (!product) return
 
   return (
     <>

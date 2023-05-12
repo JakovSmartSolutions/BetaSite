@@ -112,6 +112,7 @@ export const ProductCard = ({ product }: Props) => {
             <ul>
               {product.attributes.slice(0, 4).map((a) => (
                 <li key={a.attribute.name}>
+                  {" • "}
                   {a.attribute.name}: {a.value.value}
                 </li>
               ))}
@@ -125,6 +126,7 @@ export const ProductCard = ({ product }: Props) => {
               <ul>
                 {product.valuable_attributes.slice(0, 4).map((attribute) => (
                   <li key={attribute.attribute.name}>
+                    {" • "}
                     {attribute.attribute.name}: {attribute.value.value}{" "}
                   </li>
                 ))}
